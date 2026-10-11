@@ -1,0 +1,194 @@
+From 735e2e8c5d34d5ba83952c31ba821f50480a9473 Mon Sep 17 00:00:00 2001
+From: Suryansh Singh <suryanshsingh3002@gmail.com>
+Date: Sun, 11 Oct 2026 15:30:57 -0500
+Subject: [PATCH] Add G1 small-box carry training preset
+
+---
+ .../holosoma/config_values/command.py         |  2 ++
+ .../holosoma/config_values/experiment.py      |  2 ++
+ src/holosoma/holosoma/config_values/scene.py  |  3 ++-
+ .../holosoma/config_values/wbt/g1/command.py  | 25 +++++++++++++++++++
+ .../config_values/wbt/g1/experiment.py        | 12 +++++++++
+ .../holosoma/config_values/wbt/g1/scene.py    | 23 ++++++++++++++++-
+ 6 files changed, 65 insertions(+), 2 deletions(-)
+
+diff --git a/src/holosoma/holosoma/config_values/command.py b/src/holosoma/holosoma/config_values/command.py
+index f2339f3..bbe64bf 100644
+--- a/src/holosoma/holosoma/config_values/command.py
++++ b/src/holosoma/holosoma/config_values/command.py
+@@ -4,6 +4,7 @@ from holosoma.config_types.command import CommandManagerCfg
+ from holosoma.config_values.loco.g1.command import g1_29dof_command
+ from holosoma.config_values.loco.t1.command import t1_29dof_command
+ from holosoma.config_values.wbt.g1.command import (
++    g1_29dof_carry_command,
+     g1_29dof_wbt_command,
+     g1_29dof_wbt_command_w_object,
+ )
+@@ -16,6 +17,7 @@ COMMAND_REGISTRY.add("t1_29dof", t1_29dof_command)
+ COMMAND_REGISTRY.add("g1_29dof", g1_29dof_command)
+ COMMAND_REGISTRY.add("g1_29dof_wbt", g1_29dof_wbt_command)
+ COMMAND_REGISTRY.add("g1_29dof_wbt_w_object", g1_29dof_wbt_command_w_object)
++COMMAND_REGISTRY.add("g1_29dof_carry", g1_29dof_carry_command)
+ 
+ from holosoma.utils.config_registry import (  # noqa: E402
+     deprecated_defaults_alias as _deprecated_defaults_alias,
+diff --git a/src/holosoma/holosoma/config_values/experiment.py b/src/holosoma/holosoma/config_values/experiment.py
+index e902ced..36b3977 100644
+--- a/src/holosoma/holosoma/config_values/experiment.py
++++ b/src/holosoma/holosoma/config_values/experiment.py
+@@ -5,6 +5,7 @@ from holosoma.config_types.experiment import ExperimentConfig
+ from holosoma.config_values.loco.g1.experiment import g1_29dof, g1_29dof_fast_sac
+ from holosoma.config_values.loco.t1.experiment import t1_29dof, t1_29dof_fast_sac
+ from holosoma.config_values.wbt.g1.experiment import (
++    g1_29dof_carry,
+     g1_29dof_wbt,
+     g1_29dof_wbt_fast_sac,
+     g1_29dof_wbt_fast_sac_w_object,
+@@ -22,6 +23,7 @@ EXPERIMENT_REGISTRY.add("g1_29dof_wbt", g1_29dof_wbt)
+ EXPERIMENT_REGISTRY.add("g1_29dof_wbt_w_object", g1_29dof_wbt_w_object)
+ EXPERIMENT_REGISTRY.add("g1_29dof_wbt_fast_sac", g1_29dof_wbt_fast_sac)
+ EXPERIMENT_REGISTRY.add("g1_29dof_wbt_fast_sac_w_object", g1_29dof_wbt_fast_sac_w_object)
++EXPERIMENT_REGISTRY.add("g1_29dof_carry", g1_29dof_carry)
+ 
+ 
+ def get_annotated_experiment_config() -> type:
+diff --git a/src/holosoma/holosoma/config_values/scene.py b/src/holosoma/holosoma/config_values/scene.py
+index 9544cb8..b88c19d 100644
+--- a/src/holosoma/holosoma/config_values/scene.py
++++ b/src/holosoma/holosoma/config_values/scene.py
+@@ -17,7 +17,7 @@ from holosoma.config_types.scene import (
+     SceneConfig,
+     SceneFileConfig,
+ )
+-from holosoma.config_values.wbt.g1.scene import g1_29dof_wbt_object_scene
++from holosoma.config_values.wbt.g1.scene import g1_29dof_carry_scene, g1_29dof_wbt_object_scene
+ from holosoma.utils.config_registry import ConfigRegistry, deprecated_defaults_alias
+ 
+ SCENE_REGISTRY = ConfigRegistry(SceneConfig, group="holosoma.config.scene")
+@@ -66,5 +66,6 @@ object_managers_demo = SceneConfig(
+ SCENE_REGISTRY.add("empty", empty)
+ SCENE_REGISTRY.add("object-managers-demo", object_managers_demo)
+ SCENE_REGISTRY.add("g1_29dof_wbt_object", g1_29dof_wbt_object_scene)
++SCENE_REGISTRY.add("g1_29dof_carry", g1_29dof_carry_scene)
+ 
+ __getattr__ = deprecated_defaults_alias(__name__, SCENE_REGISTRY)
+diff --git a/src/holosoma/holosoma/config_values/wbt/g1/command.py b/src/holosoma/holosoma/config_values/wbt/g1/command.py
+index 26772ec..e4409ec 100644
+--- a/src/holosoma/holosoma/config_values/wbt/g1/command.py
++++ b/src/holosoma/holosoma/config_values/wbt/g1/command.py
+@@ -1,6 +1,8 @@
+ """Whole Body Tracking command presets for the G1 robot."""
+ 
++import os
+ from dataclasses import replace
++from pathlib import Path
+ 
+ from holosoma.config_types.command import CommandManagerCfg, CommandTermCfg, MotionConfig, NoiseToInitialPoseConfig
+ 
+@@ -42,6 +44,16 @@ motion_config_w_object = replace(
+     motion_file="holosoma/data/motions/g1_29dof/whole_body_tracking/sub3_largebox_003_mj_w_obj.npz",
+ )
+ 
++# T3 carry data is maintained in the companion ForceLocoManipulation repository.
++# Keeping the root configurable lets training machines place the two repositories
++# anywhere while preserving a useful sibling-checkout default.
++_force_loco_root = Path(os.environ.get("FORCE_LOCO_DATA_ROOT", "../ForceLocoManipulation")).expanduser()
++motion_config_carry = replace(
++    motion_config_w_object,
++    motion_file="",
++    motion_dir=str(_force_loco_root / "t3/carry/motions/smallbox"),
++)
++
+ g1_29dof_wbt_command = CommandManagerCfg(
+     params={},
+     setup_terms={
+@@ -76,7 +88,20 @@ g1_29dof_wbt_command_w_object = replace(
+     },
+ )
+ 
++g1_29dof_carry_command = replace(
++    g1_29dof_wbt_command,
++    setup_terms={
++        "motion_command": CommandTermCfg(
++            func="holosoma.managers.command.terms.wbt:MotionCommand",
++            params={
++                "motion_config": motion_config_carry,
++            },
++        )
++    },
++)
++
+ __all__ = [
+     "g1_29dof_wbt_command",
+     "g1_29dof_wbt_command_w_object",
++    "g1_29dof_carry_command",
+ ]
+diff --git a/src/holosoma/holosoma/config_values/wbt/g1/experiment.py b/src/holosoma/holosoma/config_values/wbt/g1/experiment.py
+index f62e11c..2885f41 100644
+--- a/src/holosoma/holosoma/config_values/wbt/g1/experiment.py
++++ b/src/holosoma/holosoma/config_values/wbt/g1/experiment.py
+@@ -178,11 +178,23 @@ g1_29dof_wbt_fast_sac_w_object = replace(
+     scene=scene.g1_29dof_wbt_object_scene,
+ )
+ 
++g1_29dof_carry = replace(
++    g1_29dof_wbt_w_object,
++    training=replace(
++        g1_29dof_wbt_w_object.training,
++        project="ForceLocoManipulation",
++        name="g1_29dof_carry_smallbox",
++    ),
++    command=command.g1_29dof_carry_command,
++    scene=scene.g1_29dof_carry_scene,
++)
++
+ __all__ = [
+     "g1_29dof_wbt",
+     "g1_29dof_wbt_fast_sac",
+     "g1_29dof_wbt_fast_sac_w_object",
+     "g1_29dof_wbt_w_object",
++    "g1_29dof_carry",
+ ]
+ 
+ """
+diff --git a/src/holosoma/holosoma/config_values/wbt/g1/scene.py b/src/holosoma/holosoma/config_values/wbt/g1/scene.py
+index d4fb57f..ad8cfb2 100644
+--- a/src/holosoma/holosoma/config_values/wbt/g1/scene.py
++++ b/src/holosoma/holosoma/config_values/wbt/g1/scene.py
+@@ -2,7 +2,10 @@
+ 
+ from __future__ import annotations
+ 
+-from holosoma.config_types.scene import RigidObjectConfig, SceneConfig
++import os
++from pathlib import Path
++
++from holosoma.config_types.scene import IsaacSimPhysicsConfig, PhysicsConfig, RigidObjectConfig, SceneConfig
+ 
+ # WBT object-tracking spawns a single free box, addressed by the actor name "object"
+ # (see managers/command/terms/wbt.py).
+@@ -14,3 +17,21 @@ g1_29dof_wbt_object_scene = SceneConfig(
+         )
+     },
+ )
++
++_force_loco_root = Path(os.environ.get("FORCE_LOCO_DATA_ROOT", "../ForceLocoManipulation")).expanduser()
++g1_29dof_carry_scene = SceneConfig(
++    env_spacing=0.0,
++    rigid_objects={
++        "object": RigidObjectConfig(
++            urdf_file=str(_force_loco_root / "github_lift_carry/models/smallbox_scale0.82999998.urdf"),
++            physics=PhysicsConfig(
++                mass=1.0,
++                isaacsim=IsaacSimPhysicsConfig(
++                    static_friction=0.9,
++                    dynamic_friction=0.9,
++                    restitution=0.0,
++                ),
++            ),
++        )
++    },
++)
+-- 
+2.50.1 (Apple Git-155)
+
