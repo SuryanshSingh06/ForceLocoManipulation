@@ -1,0 +1,13 @@
+{
+  "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+  "repositories": {
+    "holosoma": {
+      "commit": "d18d6cc50f872c15e904a22ceac22313cec955c8",
+      "working_tree_status": "M src/holosoma_retargeting/holosoma_retargeting/data_conversion/convert_data_format_mj.py\n?? src/holosoma_retargeting/holosoma_retargeting/data_conversion/convert_data_format_mj.py.bak\n?? t1/\n?? t2/"
+    },
+    "hoi-retarget": {
+      "commit": "b341dadde3fc745ef5ea606eaacbde9a0cbb916f",
+      "working_tree_status": ""
+    }
+  }
+}
