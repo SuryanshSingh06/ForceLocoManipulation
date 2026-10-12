@@ -1,0 +1,5 @@
+{
+  "source_checkpoint": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_06999.pt",
+  "status": "7000-update fresh lift baseline; known balance failures.",
+  "selection": "Candidate, not established as best."
+}

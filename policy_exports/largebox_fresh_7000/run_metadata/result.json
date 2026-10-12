@@ -1,0 +1,127 @@
+{
+  "returncode": 0,
+  "training_completed": true,
+  "policy_success_rate": null,
+  "num_envs": 128,
+  "iterations_requested": 7000,
+  "updates_completed": 7000,
+  "checkpoints": [
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_00000.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_00250.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_00500.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_00750.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_01000.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_01250.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_01500.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_01750.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_02000.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_02250.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_02500.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_02750.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_03000.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_03250.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_03500.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_03750.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_04000.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_04250.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_04500.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_04750.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_05000.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_05250.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_05500.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_05750.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_06000.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_06250.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_06500.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_06750.pt",
+      "size_bytes": 6839239
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/logs/LiftFresh/20261010_223250-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_06999.pt",
+      "size_bytes": 6839239
+    }
+  ],
+  "training_scope": "one derived clip with 3s terminal hold; reference-phase resets; not task evaluation"
+}

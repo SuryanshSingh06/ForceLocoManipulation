@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "exact tracking in translated environments",
+    "ground clearance",
+    "moving box",
+    "torso-only lean",
+    "pickup phase gating"
+  ],
+  "physical_success_verified": false
+}

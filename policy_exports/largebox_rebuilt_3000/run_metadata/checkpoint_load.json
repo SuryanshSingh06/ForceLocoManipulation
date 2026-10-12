@@ -1,0 +1,9 @@
+{
+  "checkpoint": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/logs/LargeBoxFresh/20261011_044744-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_00999.pt",
+  "loaded_iteration": 999,
+  "first_update": 1000,
+  "actor_and_critic_loaded": true,
+  "optimizer_loaded": true,
+  "normalization_enabled": true,
+  "environment_restore_called": true
+}

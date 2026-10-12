@@ -1,0 +1,34 @@
+{
+  "commit": "d18d6cc50f872c15e904a22ceac22313cec955c8",
+  "python": "/home/rudra/.holosoma_deps/miniconda3/envs/hssim/bin/python",
+  "script_sha256": "dff5a1325cf6cc6f743a52353cc0933f76ac8503149c73d31ec8c51cc5b07aae",
+  "data": "/home/rudra/holosoma/t2/github_lift_carry",
+  "resume_checkpoint": null,
+  "initialization": "random weights; fresh optimizer",
+  "changes": {
+    "object_position_reward_weight": 3.0,
+    "object_position_reward_sigma_m": 0.15,
+    "object_position_reset_threshold_m": 0.45,
+    "load_optimizer": false,
+    "object_orientation_weight": 3.0,
+    "root_orientation_weight": 2.0,
+    "body_orientation_weight": 2.0,
+    "terminal_hold_seconds": 3.0,
+    "actor_learning_rate_max": 0.0003,
+    "supported_stationary_hold_weight": 3.0,
+    "foot_target_offset_fix": "body_pos_w already contains env origins",
+    "tilt_tracking": "mean pelvis and torso projected-gravity error",
+    "settling_cost_weights": {
+      "tilt": -1.0,
+      "robot_velocity": -0.8,
+      "feet_position": -1.0,
+      "robot_position": -0.8,
+      "box_velocity": -0.5,
+      "box_position": -1.0
+    },
+    "settling_start_frame": 72,
+    "settling_cost_gate": "20-frame phase ramp only; no object-error gate",
+    "settling_cost_shape": "sqrt(1+normalized squared error)-1"
+  },
+  "diagnostic_evidence": "Repeated forward drift after fine-tuning. Corrected double environment-origin addition in the previous stationary foot target; added supported hold reward; fresh initialization requested."
+}

@@ -1,0 +1,10 @@
+{
+  "source_motion": "/home/rudra/holosoma/t2/github_lift_carry/motions/lift/sub7_largebox_024_t1_lift_000009_000066.npz",
+  "source_sha256": "18e733952f2c9e6eab3dec9b8808c125ff5f2fa9634d962291c837d68c507056",
+  "derived_motion": "/home/rudra/holosoma/t3/fresh_20261010_223245_909879/lift_with_terminal_hold.npz",
+  "derived_sha256": "377343fa20d3cf35b673eb7987aacd1b9bf1bb12ae61ce15eb1702fc66ba4da1",
+  "original_frames": 92,
+  "appended_frames": 150,
+  "fps": 50.0,
+  "method": "repeat terminal pose and contacts; zero appended velocities"
+}

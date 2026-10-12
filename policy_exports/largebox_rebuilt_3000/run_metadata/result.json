@@ -1,0 +1,19 @@
+{
+  "training_completed": true,
+  "returncode": 0,
+  "additional_updates": 2000,
+  "updates_completed": 2000,
+  "source_checkpoint": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/logs/LargeBoxFresh/20261011_044744-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_00999.pt",
+  "checkpoints": [
+    "/home/rudra/holosoma/t3/largebox_continue_20261011_052745_185212/logs/LargeBoxFresh/20261011_052752-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_01000.pt",
+    "/home/rudra/holosoma/t3/largebox_continue_20261011_052745_185212/logs/LargeBoxFresh/20261011_052752-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_01250.pt",
+    "/home/rudra/holosoma/t3/largebox_continue_20261011_052745_185212/logs/LargeBoxFresh/20261011_052752-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_01500.pt",
+    "/home/rudra/holosoma/t3/largebox_continue_20261011_052745_185212/logs/LargeBoxFresh/20261011_052752-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_01750.pt",
+    "/home/rudra/holosoma/t3/largebox_continue_20261011_052745_185212/logs/LargeBoxFresh/20261011_052752-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_02000.pt",
+    "/home/rudra/holosoma/t3/largebox_continue_20261011_052745_185212/logs/LargeBoxFresh/20261011_052752-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_02250.pt",
+    "/home/rudra/holosoma/t3/largebox_continue_20261011_052745_185212/logs/LargeBoxFresh/20261011_052752-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_02500.pt",
+    "/home/rudra/holosoma/t3/largebox_continue_20261011_052745_185212/logs/LargeBoxFresh/20261011_052752-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_02750.pt",
+    "/home/rudra/holosoma/t3/largebox_continue_20261011_052745_185212/logs/LargeBoxFresh/20261011_052752-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_02999.pt"
+  ],
+  "physical_success_verified": false
+}

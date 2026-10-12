@@ -1,0 +1,5 @@
+{
+  "source_checkpoint": "/home/rudra/holosoma/logs/ForceLocoManipulation/20261011_205912-g1_29dof_carry_smallbox-locomotion/model_04999.pt",
+  "status": "5000-update carry candidate; performance not yet verified.",
+  "selection": "Candidate, not established as best."
+}

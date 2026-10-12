@@ -1,0 +1,31 @@
+{
+  "returncode": 0,
+  "training_completed": true,
+  "policy_success_rate": null,
+  "num_envs": 128,
+  "iterations_requested": 1000,
+  "updates_completed": 1000,
+  "checkpoints": [
+    {
+      "path": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/logs/LargeBoxFresh/20261011_044744-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_00000.pt",
+      "size_bytes": 6982407
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/logs/LargeBoxFresh/20261011_044744-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_00250.pt",
+      "size_bytes": 6982407
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/logs/LargeBoxFresh/20261011_044744-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_00500.pt",
+      "size_bytes": 6982407
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/logs/LargeBoxFresh/20261011_044744-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_00750.pt",
+      "size_bytes": 6982407
+    },
+    {
+      "path": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/logs/LargeBoxFresh/20261011_044744-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_00999.pt",
+      "size_bytes": 6982407
+    }
+  ],
+  "training_scope": "two large-box clips with 15s holds; task success requires separate evaluation"
+}

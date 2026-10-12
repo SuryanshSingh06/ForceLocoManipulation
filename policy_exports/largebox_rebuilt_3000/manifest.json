@@ -1,0 +1,5 @@
+{
+  "source_checkpoint": "/home/rudra/holosoma/t3/largebox_continue_20261011_052745_185212/logs/LargeBoxFresh/20261011_052752-sub7_largebox_024_t1_lift_000009_000066-locomotion/model_02999.pt",
+  "status": "1000 initial plus 2000 continued updates; mixed evaluation outcomes.",
+  "selection": "Candidate, not established as best."
+}

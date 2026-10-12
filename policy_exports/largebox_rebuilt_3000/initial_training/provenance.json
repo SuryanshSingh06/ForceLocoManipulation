@@ -1,0 +1,212 @@
+{
+  "commit": "d18d6cc50f872c15e904a22ceac22313cec955c8",
+  "python": "/home/rudra/.holosoma_deps/miniconda3/envs/hssim/bin/python",
+  "script_sha256": "06d3b4bae1d323cc6210da2f84621fbbc32d1a77771883f1a9ec877276b1bd92",
+  "resume_checkpoint": null,
+  "initialization": "random weights and fresh optimizer",
+  "inputs": {
+    "clip_id": "sub7_largebox_024_t1_lift_000009_000066",
+    "motion": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/motions/sub7_largebox_024_t1_lift_000009_000066.npz",
+    "object_urdf": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/sub7_largebox_024_t1_lift_000009_000066/largebox_1kg.urdf",
+    "initial_pos": [
+      0.0007093313615769148,
+      -0.21020875871181488,
+      0.15101395547389984
+    ],
+    "initial_quat": [
+      0.04544929466749704,
+      0.12988047449689952,
+      -0.9884167426146392,
+      0.0640138022441547
+    ],
+    "mass_kg": 1.0,
+    "inertia_diagonal_kg_m2": [
+      0.02163215117457299,
+      0.022295387179080643,
+      0.024824488788173754
+    ],
+    "center_of_mass_m": [
+      0.0012402980250610374,
+      -0.0005937612380611107,
+      0.004777139603944963
+    ],
+    "mesh_bounds_size_m": [
+      0.39105798643690737,
+      0.38074600024425287,
+      0.33855324159263234
+    ],
+    "collision_bounds": [
+      [
+        -0.19428869519339265,
+        -0.19096676136018753,
+        -0.1644994811923712
+      ],
+      [
+        0.19676929124351472,
+        0.1897792388840653,
+        0.17405376040026113
+      ]
+    ],
+    "inertia_model": "uniform solid cuboid approximation over scaled mesh bounds",
+    "static_friction": 0.9,
+    "dynamic_friction": 0.9,
+    "restitution": 0.0,
+    "source_hashes": {
+      "motion": "18e733952f2c9e6eab3dec9b8808c125ff5f2fa9634d962291c837d68c507056",
+      "urdf": "87b3265d99aec8b7f4691f300178b3d3dbf3d1a1fa0c34eee43e7b5390b17e86",
+      "mesh": "dbcc11281f62e9226f49165252375080d2e490e5a3f0ab6ba917acbd8f7abc1c"
+    },
+    "limitations": [
+      "not a lift-success evaluation",
+      "stock clip-end reset behavior retained for pilot training only",
+      "geometry and hand alignment require review",
+      "terminal pose repetition is a training target; physical hold still requires evaluation"
+    ],
+    "original_motion": "/home/rudra/holosoma/t2/github_lift_carry/motions/lift/sub7_largebox_024_t1_lift_000009_000066.npz",
+    "terminal_hold_seconds": 15.0,
+    "original_frames": 92,
+    "derived_frames": 842,
+    "derived_motion_sha256": "a14bad9cadcf2a7bada94b3738ff96c779e05073e24c2e659405d85414b7f7d2",
+    "motion_dir": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/motions",
+    "hold_starts": [
+      92,
+      79
+    ],
+    "clip_ids": [
+      "sub7_largebox_024_t1_lift_000009_000066",
+      "sub7_largebox_026_t1_lift_000010_000059"
+    ],
+    "clips": [
+      {
+        "clip_id": "sub7_largebox_024_t1_lift_000009_000066",
+        "motion": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/sub7_largebox_024_t1_lift_000009_000066/lift_with_terminal_hold.npz",
+        "object_urdf": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/sub7_largebox_024_t1_lift_000009_000066/largebox_1kg.urdf",
+        "initial_pos": [
+          0.0007093313615769148,
+          -0.21020875871181488,
+          0.15101395547389984
+        ],
+        "initial_quat": [
+          0.04544929466749704,
+          0.12988047449689952,
+          -0.9884167426146392,
+          0.0640138022441547
+        ],
+        "mass_kg": 1.0,
+        "inertia_diagonal_kg_m2": [
+          0.02163215117457299,
+          0.022295387179080643,
+          0.024824488788173754
+        ],
+        "center_of_mass_m": [
+          0.0012402980250610374,
+          -0.0005937612380611107,
+          0.004777139603944963
+        ],
+        "mesh_bounds_size_m": [
+          0.39105798643690737,
+          0.38074600024425287,
+          0.33855324159263234
+        ],
+        "collision_bounds": [
+          [
+            -0.19428869519339265,
+            -0.19096676136018753,
+            -0.1644994811923712
+          ],
+          [
+            0.19676929124351472,
+            0.1897792388840653,
+            0.17405376040026113
+          ]
+        ],
+        "inertia_model": "uniform solid cuboid approximation over scaled mesh bounds",
+        "static_friction": 0.9,
+        "dynamic_friction": 0.9,
+        "restitution": 0.0,
+        "source_hashes": {
+          "motion": "18e733952f2c9e6eab3dec9b8808c125ff5f2fa9634d962291c837d68c507056",
+          "urdf": "87b3265d99aec8b7f4691f300178b3d3dbf3d1a1fa0c34eee43e7b5390b17e86",
+          "mesh": "dbcc11281f62e9226f49165252375080d2e490e5a3f0ab6ba917acbd8f7abc1c"
+        },
+        "limitations": [
+          "not a lift-success evaluation",
+          "stock clip-end reset behavior retained for pilot training only",
+          "geometry and hand alignment require review",
+          "terminal pose repetition is a training target; physical hold still requires evaluation"
+        ],
+        "original_motion": "/home/rudra/holosoma/t2/github_lift_carry/motions/lift/sub7_largebox_024_t1_lift_000009_000066.npz",
+        "terminal_hold_seconds": 15.0,
+        "original_frames": 92,
+        "derived_frames": 842,
+        "derived_motion_sha256": "a14bad9cadcf2a7bada94b3738ff96c779e05073e24c2e659405d85414b7f7d2"
+      },
+      {
+        "clip_id": "sub7_largebox_026_t1_lift_000010_000059",
+        "motion": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/sub7_largebox_026_t1_lift_000010_000059/lift_with_terminal_hold.npz",
+        "object_urdf": "/home/rudra/holosoma/t3/largebox_fresh_20261011_044737_022271/sub7_largebox_026_t1_lift_000010_000059/largebox_1kg.urdf",
+        "initial_pos": [
+          0.04349583387374878,
+          -0.19967834651470184,
+          0.1526607871055603
+        ],
+        "initial_quat": [
+          0.06451075692768772,
+          -0.0017190170923823919,
+          -0.995182838235063,
+          0.07380058064308971
+        ],
+        "mass_kg": 1.0,
+        "inertia_diagonal_kg_m2": [
+          0.02163215117457299,
+          0.022295387179080643,
+          0.024824488788173754
+        ],
+        "center_of_mass_m": [
+          0.0012402980250610374,
+          -0.0005937612380611107,
+          0.004777139603944963
+        ],
+        "mesh_bounds_size_m": [
+          0.39105798643690737,
+          0.38074600024425287,
+          0.33855324159263234
+        ],
+        "collision_bounds": [
+          [
+            -0.19428869519339265,
+            -0.19096676136018753,
+            -0.1644994811923712
+          ],
+          [
+            0.19676929124351472,
+            0.1897792388840653,
+            0.17405376040026113
+          ]
+        ],
+        "inertia_model": "uniform solid cuboid approximation over scaled mesh bounds",
+        "static_friction": 0.9,
+        "dynamic_friction": 0.9,
+        "restitution": 0.0,
+        "source_hashes": {
+          "motion": "54683df85e84e53988b861bec9053e259a10602d81ae11052e24320d0456d751",
+          "urdf": "87b3265d99aec8b7f4691f300178b3d3dbf3d1a1fa0c34eee43e7b5390b17e86",
+          "mesh": "dbcc11281f62e9226f49165252375080d2e490e5a3f0ab6ba917acbd8f7abc1c"
+        },
+        "limitations": [
+          "not a lift-success evaluation",
+          "stock clip-end reset behavior retained for pilot training only",
+          "geometry and hand alignment require review",
+          "terminal pose repetition is a training target; physical hold still requires evaluation"
+        ],
+        "original_motion": "/home/rudra/holosoma/t2/github_lift_carry/motions/lift/sub7_largebox_026_t1_lift_000010_000059.npz",
+        "terminal_hold_seconds": 15.0,
+        "original_frames": 79,
+        "derived_frames": 829,
+        "derived_motion_sha256": "a4134f9ca7fea959ee50f45dceb2a43fd2454eafb538b7c3f55a799fc81d736b"
+      }
+    ]
+  },
+  "scope": "two large-box clips, 15s hold, state-aware actor; simulation only",
+  "success_verified": false
+}
