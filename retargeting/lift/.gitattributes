@@ -1,0 +1,11 @@
+artifacts/**/*.pkl filter=lfs diff=lfs merge=lfs -text
+artifacts/**/*.npz filter=lfs diff=lfs merge=lfs -text
+artifacts/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+artifacts/**/*.png filter=lfs diff=lfs merge=lfs -text
+artifacts/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+artifacts/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+artifacts/**/*.obj filter=lfs diff=lfs merge=lfs -text
+artifacts/**/*.stl filter=lfs diff=lfs merge=lfs -text
+artifacts/**/*.STL filter=lfs diff=lfs merge=lfs -text
+artifacts/**/*.dae filter=lfs diff=lfs merge=lfs -text
+artifacts/**/*.ply filter=lfs diff=lfs merge=lfs -text

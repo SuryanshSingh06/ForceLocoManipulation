@@ -1,0 +1,42 @@
+[
+  {
+    "path": "scripts/isaac_filtered_contact_hooks.py",
+    "sha256": "b61c5ca03a672a1c27fe8e9eb765a840fbaa1c182a73054f970386d06d775f38",
+    "kind": "recovered helper snapshot; trailing blank lines may be normalized"
+  },
+  {
+    "path": "scripts/isaac_palm_contact_tools.py",
+    "sha256": "7641594711467a29eeecf8b12e122d3348d5dc38b4d029add816a1f7690b0588",
+    "kind": "recovered helper snapshot; trailing blank lines may be normalized"
+  },
+  {
+    "path": "scripts/t2_batch_retarget.py",
+    "sha256": "4d1586b4d88ca2be3068c6dcc5f67aaa64da28ce3f41d6942940bbaf0f8a3b49",
+    "kind": "recovered helper snapshot; trailing blank lines may be normalized"
+  },
+  {
+    "path": "scripts/t2_export_holosoma.py",
+    "sha256": "1a59caf2d38fdc304af6d8595c93906fa2e5428899fa8f1ed6707058729f5221",
+    "kind": "recovered helper snapshot; trailing blank lines may be normalized"
+  },
+  {
+    "path": "scripts/t2_isaac_contact_view.py",
+    "sha256": "b85b9496dc6427ff376dfabf690b6df9d6182940e4eec8955dce1a6be62e25d2",
+    "kind": "recovered helper snapshot; trailing blank lines may be normalized"
+  },
+  {
+    "path": "scripts/t2_palm_geometry_qa.py",
+    "sha256": "c74a7281bc5e38f3051d56cd73942141adad2a232fbf713a85c7cdd815580e62",
+    "kind": "recovered helper snapshot; trailing blank lines may be normalized"
+  },
+  {
+    "path": "scripts/t2_resample_hoi.py",
+    "sha256": "7fe14f3b088685f7606cef8d102da0508adec4e7a30e73eb965c06b175cc30b4",
+    "kind": "recovered helper snapshot; trailing blank lines may be normalized"
+  },
+  {
+    "path": "scripts/t2_run_dynamic_with_contacts.py",
+    "sha256": "8a1336b43f9d341196ff4f35d440358f976071c0b5b51c1a3d3e495b26238c81",
+    "kind": "recovered helper snapshot; trailing blank lines may be normalized"
+  }
+]

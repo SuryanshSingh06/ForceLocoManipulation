@@ -1,0 +1,89 @@
+{
+  "quaternion_order": "wxyz",
+  "robot_geometry_verified": false,
+  "floor_z_m": 0.0,
+  "hands": {
+    "left": {
+      "calibrated": false,
+      "link_name": "left_wrist_yaw_link",
+      "offset_link_m": null,
+      "expected_box_side": null
+    },
+    "right": {
+      "calibrated": false,
+      "link_name": "right_wrist_yaw_link",
+      "offset_link_m": null,
+      "expected_box_side": null
+    }
+  },
+  "objects": {
+    "largebox": {
+      "verified": false,
+      "reference_object_scale": 0.8299999833106995,
+      "grasp_axis": null,
+      "boxes": [
+        {
+          "center_object_m": null,
+          "quat_object_wxyz": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "half_extents_m": null
+        }
+      ]
+    },
+    "smallbox": {
+      "verified": false,
+      "reference_object_scale": 0.8299999833106995,
+      "grasp_axis": null,
+      "boxes": [
+        {
+          "center_object_m": null,
+          "quat_object_wxyz": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "half_extents_m": null
+        }
+      ]
+    },
+    "plasticbox": {
+      "verified": false,
+      "reference_object_scale": 0.8299999833106995,
+      "grasp_axis": null,
+      "boxes": [
+        {
+          "center_object_m": null,
+          "quat_object_wxyz": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "half_extents_m": null
+        }
+      ]
+    }
+  },
+  "thresholds": {
+    "contact_gap_m": 0.02,
+    "allowed_penetration_m": 0.01,
+    "min_contact_fraction": 0.9,
+    "max_p95_gap_m": 0.03,
+    "max_p95_drift_m": 0.03,
+    "reject_gap_m": 0.05,
+    "reject_far_fraction": 0.1,
+    "reject_penetration_m": 0.02,
+    "max_gap_jump_m": 0.03,
+    "reject_gap_jump_m": 0.05,
+    "min_window_s": 0.2,
+    "airborne_clearance_m": 0.05,
+    "side_tolerance_m": 0.005,
+    "max_wrong_side_fraction": 0.1
+  },
+  "contact_windows": {}
+}

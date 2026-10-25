@@ -1,0 +1,199 @@
+{
+  "source": "Uploaded inventory.json on 2026-10-21",
+  "clips": [
+    {
+      "clip": "sub10_largebox_033_t1_lift_000010_000043",
+      "object": "largebox",
+      "fps": 50.0,
+      "frames": 52,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "0fa697819ea0216cdeb711cb7d5ce23acdaebb37b07574ca14d986a6753146e5"
+    },
+    {
+      "clip": "sub10_smallbox_050_t1_lift_000083_000129",
+      "object": "smallbox",
+      "fps": 50.0,
+      "frames": 74,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "2935aa47616a402f3260e7e392301d0c82096338fb7f7024a2c5a29b1278e276"
+    },
+    {
+      "clip": "sub12_plasticbox_023_t1_lift_000110_000153",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 69,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub12_plasticbox_036_t1_lift_000242_000280",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 61,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub14_smallbox_027_t1_lift_000013_000056",
+      "object": "smallbox",
+      "fps": 50.0,
+      "frames": 69,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "2935aa47616a402f3260e7e392301d0c82096338fb7f7024a2c5a29b1278e276"
+    },
+    {
+      "clip": "sub14_smallbox_029_t1_lift_000090_000132",
+      "object": "smallbox",
+      "fps": 50.0,
+      "frames": 67,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "2935aa47616a402f3260e7e392301d0c82096338fb7f7024a2c5a29b1278e276"
+    },
+    {
+      "clip": "sub15_plasticbox_023_t1_lift_000046_000106",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 97,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub15_plasticbox_024_t1_lift_000049_000115",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 107,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub15_plasticbox_025_t1_lift_000054_000106",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 84,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub15_plasticbox_026_t1_lift_000045_000101",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 91,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub16_largebox_022_t1_lift_000089_000147",
+      "object": "largebox",
+      "fps": 50.0,
+      "frames": 94,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "0fa697819ea0216cdeb711cb7d5ce23acdaebb37b07574ca14d986a6753146e5"
+    },
+    {
+      "clip": "sub1_plasticbox_020_t1_lift_000020_000092",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 117,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub1_plasticbox_044_t1_lift_000019_000067",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 77,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub1_plasticbox_045_t1_lift_000022_000075",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 86,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub1_plasticbox_048_t1_lift_000027_000077",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 81,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub1_plasticbox_049_t1_lift_000029_000077",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 77,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub1_plasticbox_075_t1_lift_000021_000057",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 57,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub5_plasticbox_026_t1_lift_000039_000091",
+      "object": "plasticbox",
+      "fps": 50.0,
+      "frames": 84,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "e1985053e9cbbe1d94dbf202c3f6d5f11bf9579ab8b7cf72ad68156d0fce50df"
+    },
+    {
+      "clip": "sub7_largebox_024_t1_lift_000009_000066",
+      "object": "largebox",
+      "fps": 50.0,
+      "frames": 92,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "0fa697819ea0216cdeb711cb7d5ce23acdaebb37b07574ca14d986a6753146e5"
+    },
+    {
+      "clip": "sub7_largebox_026_t1_lift_000010_000059",
+      "object": "largebox",
+      "fps": 50.0,
+      "frames": 79,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "0fa697819ea0216cdeb711cb7d5ce23acdaebb37b07574ca14d986a6753146e5"
+    },
+    {
+      "clip": "sub7_largebox_029_t1_lift_000010_000090",
+      "object": "largebox",
+      "fps": 50.0,
+      "frames": 131,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "0fa697819ea0216cdeb711cb7d5ce23acdaebb37b07574ca14d986a6753146e5"
+    },
+    {
+      "clip": "sub7_smallbox_012_t1_lift_000039_000084",
+      "object": "smallbox",
+      "fps": 50.0,
+      "frames": 72,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "2935aa47616a402f3260e7e392301d0c82096338fb7f7024a2c5a29b1278e276"
+    },
+    {
+      "clip": "sub7_smallbox_016_t1_lift_000027_000094",
+      "object": "smallbox",
+      "fps": 50.0,
+      "frames": 109,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "2935aa47616a402f3260e7e392301d0c82096338fb7f7024a2c5a29b1278e276"
+    },
+    {
+      "clip": "sub7_smallbox_026_t1_lift_000022_000074",
+      "object": "smallbox",
+      "fps": 50.0,
+      "frames": 84,
+      "reference_object_scale": 0.8299999833106995,
+      "model_sha256": "2935aa47616a402f3260e7e392301d0c82096338fb7f7024a2c5a29b1278e276"
+    }
+  ],
+  "failures": [],
+  "note": "Inventory of exports, not physical grasp approval."
+}

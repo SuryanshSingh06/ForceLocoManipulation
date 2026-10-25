@@ -1,0 +1,3002 @@
+{
+  "meters_per_stage_unit": 1.0,
+  "note": "Extents alone are not calibrated palm sites. Convex hull extents do not describe crate wall geometry.",
+  "prims": [
+    {
+      "path": "/World/envs/env_0/object/baseLink",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/object/baseLink/collisions/mesh_4153d5078e93_33a4df8ed2e52e4d_plasticbox/World",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          0.8299999833106995,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.8299999833106995,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8299999833106995,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/pelvis",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.7599999904632568,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/pelvis/collisions/mesh_0/sphere",
+      "type": "Sphere",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.6799999922513962,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.07000000029802322,
+          -0.07000000029802322,
+          -0.07000000029802322
+        ],
+        [
+          0.07000000029802322,
+          0.07000000029802322,
+          0.07000000029802322
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_hip_pitch_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.06445199996232986,
+          0.6572999879717827,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_hip_roll_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          0.9847439513471343,
+          0.0,
+          0.1740096269900971,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1740096269900971,
+          0.0,
+          0.9847439513471343,
+          0.0
+        ],
+        [
+          0.0,
+          0.11645200103521347,
+          0.6268349885940552,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_hip_roll_link/collisions/left_hip_roll_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          0.9847439513471343,
+          0.0,
+          0.1740096269900971,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1740096269900971,
+          0.0,
+          0.9847439513471343,
+          0.0
+        ],
+        [
+          0.0,
+          0.11645200103521347,
+          0.6268349885940552,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_hip_yaw_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          0.9847439513471343,
+          0.0,
+          0.1740096269900971,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1740096269900971,
+          0.0,
+          0.9847439513471343,
+          0.0
+        ],
+        [
+          0.0462176613509655,
+          0.11645200103521347,
+          0.5089589953422546,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_hip_yaw_link/collisions/left_hip_yaw_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          0.9847439513471343,
+          0.0,
+          0.1740096269900971,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1740096269900971,
+          0.0,
+          0.9847439513471343,
+          0.0
+        ],
+        [
+          0.0462176613509655,
+          0.11645200103521347,
+          0.5089589953422546,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_knee_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -2.3283064365386963e-06,
+          0.11860089749097824,
+          0.32070425152778625,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_knee_link/collisions/mesh_0/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.019997671246528625,
+          0.11860089749097824,
+          0.22070425003767014,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.05000000074505806,
+          -0.05000000074505806,
+          -0.15000000596046448
+        ],
+        [
+          0.05000000074505806,
+          0.05000000074505806,
+          0.15000000596046448
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_ankle_pitch_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -2.3283064365386963e-06,
+          0.11850645393133163,
+          0.020694255828857422,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_ankle_roll_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -2.3283064365386963e-06,
+          0.11850645393133163,
+          0.003136277198791504,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_ankle_roll_link/collisions/mesh_0/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          -0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.0749976746737957,
+          0.09250645339488983,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.009999999776482582,
+          -0.009999999776482582,
+          -0.03500000014901161
+        ],
+        [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.03500000014901161
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_ankle_roll_link/collisions/mesh_1/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.03949767351150513,
+          0.10050645470619202,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.00800000037997961,
+          -0.00800000037997961,
+          -0.09149999916553497
+        ],
+        [
+          0.00800000037997961,
+          0.00800000037997961,
+          0.09149999916553497
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_ankle_roll_link/collisions/mesh_2/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.038997672498226166,
+          0.10850645415484905,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.009999999776482582,
+          -0.009999999776482582,
+          -0.10099999606609344
+        ],
+        [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.10099999606609344
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_ankle_roll_link/collisions/mesh_3/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.038997672498226166,
+          0.11850645393133163,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.009999999776482582,
+          -0.009999999776482582,
+          -0.10300000011920929
+        ],
+        [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.10300000011920929
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_ankle_roll_link/collisions/mesh_4/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.038997672498226166,
+          0.12850645370781422,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.009999999776482582,
+          -0.009999999776482582,
+          -0.10099999606609344
+        ],
+        [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.10099999606609344
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_ankle_roll_link/collisions/mesh_5/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.03949767351150513,
+          0.13650645315647125,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.00800000037997961,
+          -0.00800000037997961,
+          -0.09149999916553497
+        ],
+        [
+          0.00800000037997961,
+          0.00800000037997961,
+          0.09149999916553497
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_ankle_roll_link/collisions/mesh_6/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          -0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.0749976746737957,
+          0.14450645446777344,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.009999999776482582,
+          -0.009999999776482582,
+          -0.03500000014901161
+        ],
+        [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.03500000014901161
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/LL_FOOT",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.03999767079949379,
+          0.11850645393133163,
+          -0.033863723278045654,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_foot_contact_point",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -2.3283064365386963e-06,
+          0.11850645393133163,
+          -0.033863723278045654,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/pelvis_contour_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.7599999904632568,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_hip_pitch_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.06445199996232986,
+          0.6572999879717827,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_hip_roll_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          0.9847439513471343,
+          0.0,
+          0.1740096269900971,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1740096269900971,
+          0.0,
+          0.9847439513471343,
+          0.0
+        ],
+        [
+          0.0,
+          -0.11645200103521347,
+          0.6268349885940552,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_hip_roll_link/collisions/right_hip_roll_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          0.9847439513471343,
+          0.0,
+          0.1740096269900971,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1740096269900971,
+          0.0,
+          0.9847439513471343,
+          0.0
+        ],
+        [
+          0.0,
+          -0.11645200103521347,
+          0.6268349885940552,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_hip_yaw_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          0.9847439513471343,
+          0.0,
+          0.1740096269900971,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1740096269900971,
+          0.0,
+          0.9847439513471343,
+          0.0
+        ],
+        [
+          0.0462176613509655,
+          -0.11645200103521347,
+          0.5089589953422546,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_hip_yaw_link/collisions/right_hip_yaw_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          0.9847439513471343,
+          0.0,
+          0.1740096269900971,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1740096269900971,
+          0.0,
+          0.9847439513471343,
+          0.0
+        ],
+        [
+          0.0462176613509655,
+          -0.11645200103521347,
+          0.5089589953422546,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_knee_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -2.3283064365386963e-06,
+          -0.11860089749097824,
+          0.32070425152778625,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_knee_link/collisions/mesh_0/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.019997671246528625,
+          -0.11860089749097824,
+          0.22070425003767014,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.05000000074505806,
+          -0.05000000074505806,
+          -0.15000000596046448
+        ],
+        [
+          0.05000000074505806,
+          0.05000000074505806,
+          0.15000000596046448
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_ankle_pitch_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -2.3283064365386963e-06,
+          -0.11850645393133163,
+          0.020694255828857422,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_ankle_roll_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -2.3283064365386963e-06,
+          -0.11850645393133163,
+          0.003136277198791504,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_ankle_roll_link/collisions/mesh_0/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          -0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.0749976746737957,
+          -0.14450645446777344,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.009999999776482582,
+          -0.009999999776482582,
+          -0.03500000014901161
+        ],
+        [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.03500000014901161
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_ankle_roll_link/collisions/mesh_1/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.03949767351150513,
+          -0.13650645315647125,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.00800000037997961,
+          -0.00800000037997961,
+          -0.09149999916553497
+        ],
+        [
+          0.00800000037997961,
+          0.00800000037997961,
+          0.09149999916553497
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_ankle_roll_link/collisions/mesh_2/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.038997672498226166,
+          -0.12850645370781422,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.009999999776482582,
+          -0.009999999776482582,
+          -0.10099999606609344
+        ],
+        [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.10099999606609344
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_ankle_roll_link/collisions/mesh_3/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.038997672498226166,
+          -0.11850645393133163,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.009999999776482582,
+          -0.009999999776482582,
+          -0.10300000011920929
+        ],
+        [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.10300000011920929
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_ankle_roll_link/collisions/mesh_4/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.038997672498226166,
+          -0.10850645415484905,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.009999999776482582,
+          -0.009999999776482582,
+          -0.10099999606609344
+        ],
+        [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.10099999606609344
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_ankle_roll_link/collisions/mesh_5/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.03949767351150513,
+          -0.10050645470619202,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.00800000037997961,
+          -0.00800000037997961,
+          -0.09149999916553497
+        ],
+        [
+          0.00800000037997961,
+          0.00800000037997961,
+          0.09149999916553497
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_ankle_roll_link/collisions/mesh_6/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          -3.5745606228321236e-06,
+          0.0,
+          -0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9999999999936114,
+          0.0,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.0749976746737957,
+          -0.09250645339488983,
+          -0.021863723173737526,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.009999999776482582,
+          -0.009999999776482582,
+          -0.03500000014901161
+        ],
+        [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.03500000014901161
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/LR_FOOT",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.03999767079949379,
+          -0.11850645393133163,
+          -0.033863723278045654,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_foot_contact_point",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -2.3283064365386963e-06,
+          -0.11850645393133163,
+          -0.033863723278045654,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/waist_yaw_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.7599999904632568,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/waist_roll_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.003963499795645475,
+          0.0,
+          0.8039999902248383,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/torso_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.003963499795645475,
+          0.0,
+          0.8039999902248383,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/torso_link/collisions/torso_link_rev_1_0/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.003963499795645475,
+          0.0,
+          0.8039999902248383,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/torso_link/collisions/mesh_1/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -3.5745606228321236e-06,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9999999999936114,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.0010365000925958157,
+          0.0,
+          0.9339999854564667,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.07000000029802322,
+          -0.07000000029802322,
+          -0.09800000488758087
+        ],
+        [
+          0.07000000029802322,
+          0.07000000029802322,
+          0.09800000488758087
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/torso_link/collisions/mesh_2/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -3.5745606228321236e-06,
+          0.9999999999936114,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9999999999936114,
+          -3.5745606228321236e-06,
+          0.0
+        ],
+        [
+          0.0010365000925958157,
+          0.0,
+          0.8639999888837337,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.06499999761581421,
+          -0.06499999761581421,
+          -0.08499999344348907
+        ],
+        [
+          0.06499999761581421,
+          0.06499999761581421,
+          0.08499999344348907
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/torso_link/collisions/mesh_3/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9999999999737921,
+          -7.2399802773323305e-06,
+          0.0
+        ],
+        [
+          0.0,
+          7.2399802773323305e-06,
+          -0.9999999999737921,
+          0.0
+        ],
+        [
+          0.006036499980837107,
+          0.0,
+          1.218999981880188,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.06800000369548798,
+          -0.06800000369548798,
+          -0.07300000637769699
+        ],
+        [
+          0.06800000369548798,
+          0.06800000369548798,
+          0.07300000637769699
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/head_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.7599999904632568,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/head_link/collisions/head_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.7599999904632568,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_shoulder_pitch_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          0.9999999801369043,
+          -0.00019159016333560475,
+          -5.494907094256084e-05,
+          0.0
+        ],
+        [
+          0.00019931430225706256,
+          0.9612458099661196,
+          0.27569267871379466,
+          0.0
+        ],
+        [
+          -4.411401386666806e-10,
+          -0.2756926841898203,
+          0.9612458290594618,
+          0.0
+        ],
+        [
+          -7.199589163064957e-06,
+          0.10022000223398209,
+          1.0517799854278564,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_shoulder_roll_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          3.74353021470597e-07,
+          0.14056044816970825,
+          1.0489613115787506,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_shoulder_yaw_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -4.099656052858336e-06,
+          0.14680664241313934,
+          0.9457616806030273,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_shoulder_yaw_link/collisions/mesh_0/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9999999999737921,
+          -7.2399802773323305e-06,
+          0.0
+        ],
+        [
+          0.0,
+          7.2399802773323305e-06,
+          -0.9999999999737921,
+          0.0
+        ],
+        [
+          -4.099656052858336e-06,
+          0.14680664241313934,
+          0.9307616809383035,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.03500000014901161,
+          -0.03500000014901161,
+          -0.09999999403953552
+        ],
+        [
+          0.03500000014901161,
+          0.03500000014901161,
+          0.09999999403953552
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_elbow_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.015774477273225784,
+          0.1468084454536438,
+          0.8652428165078163,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_elbow_link/collisions/left_elbow_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.015774477273225784,
+          0.1468084454536438,
+          0.8652428165078163,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_wrist_roll_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.11577428877353668,
+          0.148677796125412,
+          0.8552374318242073,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_wrist_roll_link/collisions/left_wrist_roll_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.11577428877353668,
+          0.148677796125412,
+          0.8552374318242073,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_wrist_pitch_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.15377429127693176,
+          0.1486705094575882,
+          0.8552353456616402,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_wrist_pitch_link/collisions/left_wrist_pitch_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.15377429127693176,
+          0.1486705094575882,
+          0.8552353456616402,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_wrist_yaw_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.19977429509162903,
+          0.14866170287132263,
+          0.8552328199148178,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_wrist_yaw_link/collisions/left_wrist_yaw_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.19977429509162903,
+          0.14866170287132263,
+          0.8552328199148178,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_sphere_hand_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          0.0007412290673193267,
+          5.981497384465609e-05,
+          -0.999999723500781,
+          0.0
+        ],
+        [
+          0.0001915933142084491,
+          0.9999999798485796,
+          5.9957003750959445e-05,
+          0.0
+        ],
+        [
+          0.9999997069356928,
+          -0.00019163770310701695,
+          0.0007412175922334452,
+          0.0
+        ],
+        [
+          0.22877371311187744,
+          0.14565615355968475,
+          0.8552310466766357,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/left_sphere_hand_link/collisions/left_sphere_hand/World",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          0.0007412290673193267,
+          5.981497384465609e-05,
+          -0.999999723500781,
+          0.0
+        ],
+        [
+          0.0001915933142084491,
+          0.9999999798485796,
+          5.9957003750959445e-05,
+          0.0
+        ],
+        [
+          0.9999997069356928,
+          -0.00019163770310701695,
+          0.0007412175922334452,
+          0.0
+        ],
+        [
+          0.22877371311187744,
+          0.14565615355968475,
+          0.8552310466766357,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/logo_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.7599999904632568,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_shoulder_pitch_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          0.9999999801369043,
+          0.00019159016333560475,
+          -5.494907094256084e-05,
+          0.0
+        ],
+        [
+          -0.00019931430225706256,
+          0.9612458099661196,
+          -0.27569267871379466,
+          0.0
+        ],
+        [
+          -4.411401386666806e-10,
+          0.2756926841898203,
+          0.9612458290594618,
+          0.0
+        ],
+        [
+          -7.199589163064957e-06,
+          -0.10021000355482101,
+          1.0517799854278564,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_shoulder_roll_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          3.74353021470597e-07,
+          -0.14055044949054718,
+          1.0489613115787506,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_shoulder_yaw_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -4.099656052858336e-06,
+          -0.14679664373397827,
+          0.9457616806030273,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_shoulder_yaw_link/collisions/mesh_0/capsule",
+      "type": "Capsule",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9999999999737921,
+          -7.2399802773323305e-06,
+          0.0
+        ],
+        [
+          0.0,
+          7.2399802773323305e-06,
+          -0.9999999999737921,
+          0.0
+        ],
+        [
+          -4.099656052858336e-06,
+          -0.14679664373397827,
+          0.9307616809383035,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -0.03500000014901161,
+          -0.03500000014901161,
+          -0.09999999403953552
+        ],
+        [
+          0.03500000014901161,
+          0.03500000014901161,
+          0.09999999403953552
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_elbow_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.015774477273225784,
+          -0.14679844677448273,
+          0.8652428165078163,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_elbow_link/collisions/right_elbow_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.015774477273225784,
+          -0.14679844677448273,
+          0.8652428165078163,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_wrist_roll_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.11577428877353668,
+          -0.14866779744625092,
+          0.8552374318242073,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_wrist_roll_link/collisions/right_wrist_roll_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.11577428877353668,
+          -0.14866779744625092,
+          0.8552374318242073,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_wrist_pitch_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.15377429127693176,
+          -0.14866051077842712,
+          0.8552353456616402,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_wrist_pitch_link/collisions/right_wrist_pitch_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.15377429127693176,
+          -0.14866051077842712,
+          0.8552353456616402,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_wrist_yaw_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.19977429509162903,
+          -0.14865170419216156,
+          0.8552328199148178,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_wrist_yaw_link/collisions/right_wrist_yaw_link/node_STL_BINARY_",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.19977429509162903,
+          -0.14865170419216156,
+          0.8552328199148178,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_sphere_hand_link",
+      "type": "Xform",
+      "rigid_body": true,
+      "collider": false,
+      "collision_enabled": null,
+      "approximation": null,
+      "world_transform": [
+        [
+          0.0007412290673193267,
+          -5.981497384465609e-05,
+          -0.999999723500781,
+          0.0
+        ],
+        [
+          -0.0001915933142084491,
+          0.9999999798485796,
+          -5.9957003750959445e-05,
+          0.0
+        ],
+        [
+          0.9999997069356928,
+          0.00019163770310701695,
+          0.0007412175922334452,
+          0.0
+        ],
+        [
+          0.22877487540245056,
+          -0.15164615213871002,
+          0.8552314043045044,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/envs/env_0/Robot/right_sphere_hand_link/collisions/right_sphere_hand/World",
+      "type": "Xform",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": "convexHull",
+      "world_transform": [
+        [
+          0.0007412290673193267,
+          -5.981497384465609e-05,
+          -0.999999723500781,
+          0.0
+        ],
+        [
+          -0.0001915933142084491,
+          0.9999999798485796,
+          -5.9957003750959445e-05,
+          0.0
+        ],
+        [
+          0.9999997069356928,
+          0.00019163770310701695,
+          0.0007412175922334452,
+          0.0
+        ],
+        [
+          0.22877487540245056,
+          -0.15164615213871002,
+          0.8552314043045044,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/GroundPlane/CollisionPlane",
+      "type": "Plane",
+      "rigid_body": false,
+      "collider": true,
+      "collision_enabled": true,
+      "approximation": null,
+      "world_transform": [
+        [
+          0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.009999999776482582,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.009999999776482582,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_extent": [
+        [
+          -1.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "clip": "sub12_plasticbox_036_t1_lift_000242_000280",
+  "method": "Reconstructed convex-hull minimum distance using supplied mesh scale and saved poses; not PhysX cooked-hull/force measurements.",
+  "frames": [
+    {
+      "frame": 29,
+      "left_gap_cm": 2.048621070780101,
+      "right_gap_cm": 0.805745135134695
+    },
+    {
+      "frame": 51,
+      "left_gap_cm": 1.3048325996882633,
+      "right_gap_cm": 0.532935350759357
+    }
+  ],
+  "status": "nominal geometry measurement; dynamic validation pending"
+}
