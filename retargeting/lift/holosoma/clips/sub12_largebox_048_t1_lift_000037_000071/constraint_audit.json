@@ -1,0 +1,176 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 1,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 2,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 3,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 4,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 5,
+      "collision_excess_m": 9.028870793376109e-11,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 6,
+      "collision_excess_m": 5.828540775021374e-13,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 7,
+      "collision_excess_m": 1.1120002488262948e-12,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 8,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 9,
+      "collision_excess_m": 4.7755696966356176e-12,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 10,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 11,
+      "collision_excess_m": 7.839469572633317e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 12,
+      "collision_excess_m": 8.343590542862073e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 13,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 14,
+      "collision_excess_m": 8.650637714838205e-11,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 15,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 16,
+      "collision_excess_m": 8.019211813689586e-11,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 17,
+      "collision_excess_m": 9.57871904841076e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 18,
+      "collision_excess_m": 1.312170095236348e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 19,
+      "collision_excess_m": 2.202380205073781e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 20,
+      "collision_excess_m": 2.2009325358323534e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 21,
+      "collision_excess_m": 2.1536526780691068e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 22,
+      "collision_excess_m": 2.26315768512772e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 23,
+      "collision_excess_m": 3.540237335491331e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 24,
+      "collision_excess_m": 5.85786987276557e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 25,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 26,
+      "collision_excess_m": 1.235682704379612e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 27,
+      "collision_excess_m": 3.061456899620951e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 28,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 29,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 30,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 31,
+      "collision_excess_m": 5.085894629393295e-06,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 32,
+      "collision_excess_m": 1.0763194865280818e-05,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 33,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    }
+  ],
+  "failed_frames": 0,
+  "note": "Collision mask/pairs are those used by this retargeter. No grasp-force certification."
+}

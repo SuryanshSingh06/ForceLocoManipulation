@@ -1,0 +1,8 @@
+{
+  "id": "sub15_plasticbox_029_t1_lift_000001_000048",
+  "task": "lift",
+  "source": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub15_plasticbox_029.pt",
+  "object": "plasticbox",
+  "start": 1,
+  "end": 48
+}

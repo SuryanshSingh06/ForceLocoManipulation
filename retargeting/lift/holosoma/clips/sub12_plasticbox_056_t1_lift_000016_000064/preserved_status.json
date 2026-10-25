@@ -1,0 +1,77 @@
+{
+  "task": "lift",
+  "start": 16,
+  "end": 64,
+  "travel_m": 0.3125349225550036,
+  "bottom_min_m": -0.002984984666844326,
+  "bottom_max_m": 0.883032721042454,
+  "score": 9.142613879286799,
+  "id": "sub12_plasticbox_056_t1_lift_000016_000064",
+  "source": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub12_plasticbox_056.pt",
+  "source_id": "sub12_plasticbox_056",
+  "sha256": "c60a68af7f5147308193898401bf85eaeaf5e589ecfe258bd748e88be16b23f1",
+  "object": "plasticbox",
+  "review": "pending",
+  "status": "completed",
+  "backend": "holosoma",
+  "selected24": false,
+  "fingerprint": {
+    "source_sha256": "c60a68af7f5147308193898401bf85eaeaf5e589ecfe258bd748e88be16b23f1",
+    "start": 16,
+    "end": 64,
+    "object": "plasticbox",
+    "settings": {
+      "backend": "holosoma",
+      "task_type": "object_interaction",
+      "robot": "g1",
+      "data_format": "smplh",
+      "manifest_sha256": "0bd15e68a56db1fb64ef4eeac76b65bee17f0534d513efa48387935e305f7cdc",
+      "selected_sha256": "c333536f9d5a2f3ede17f14cdfa35d5f728cfd30995c38842ce2ba2e4cc19d24",
+      "runner_sha256": "d6d8c8c97d65db4fcdc43e7ea92371c30aaa0d4867ec6a9352c1c02e3badbf01",
+      "entry_sha256": "aa51b4d99c47f13c4cb11d6c9de9a82e57dfff02acbd3397c59957cc403a67bc",
+      "all_out": "/home/rudra/holosoma/t2/holosoma_lift_all02",
+      "selected_out": "/home/rudra/holosoma/t2/holosoma_lift_selected24_02",
+      "include_rejected": false,
+      "flags": [
+        "--retargeter.activate-obj-non-penetration",
+        "--retargeter.activate-joint-limits",
+        "--retargeter.activate-foot-sticking"
+      ]
+    }
+  },
+  "started_at": "2026-10-25T20:29:51.759963+00:00",
+  "command": [
+    "/home/rudra/.holosoma_deps/miniconda3/envs/hsretargeting/bin/python",
+    "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/examples/robot_retarget.py",
+    "--task-type",
+    "object_interaction",
+    "--robot",
+    "g1",
+    "--data-format",
+    "smplh",
+    "--task-name",
+    "sub12_plasticbox_056",
+    "--data-path",
+    "/home/rudra/holosoma/t2/holosoma_lift_all02/lift/sub12_plasticbox_056_t1_lift_000016_000064/input",
+    "--task-config.object-name",
+    "plasticbox",
+    "--save-dir",
+    "/home/rudra/holosoma/t2/holosoma_lift_all02/lift/sub12_plasticbox_056_t1_lift_000016_000064/retargeted",
+    "--retargeter.activate-obj-non-penetration",
+    "--retargeter.activate-joint-limits",
+    "--retargeter.activate-foot-sticking"
+  ],
+  "finished_at": "2026-10-25T20:45:23.826100+00:00",
+  "output_sha256": "4cae563567162aa72bd03f849fcad5a5a9d431ef4dc3e208db3471c83d387e03",
+  "fps50_sha256": "b7cc115610ed35501f12d1f030b0f669c738c522a85a29f7e3f2962a6d49299f",
+  "output": {
+    "frames": 48,
+    "fps": 30.0,
+    "qpos_shape": [
+      48,
+      43
+    ]
+  },
+  "recovery_method": "preserved_original_success",
+  "quality_review": "pending"
+}

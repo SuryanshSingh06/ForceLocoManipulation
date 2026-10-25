@@ -1,0 +1,7 @@
+{
+  "source_urdf": "/home/rudra/hoi-retarget/assets/objects/smallbox.urdf",
+  "source_visual_mesh": "/home/rudra/hoi-retarget/assets/objects/objects/smallbox/smallbox.obj",
+  "source_visual_sha256": "e263f3ffce33f85e55e083a6eae19c69e0ae4a2d0545a3c256d7d17d4fbaf116",
+  "canonical_obj": "smallbox.obj",
+  "geometry_scale_applied": 1.0
+}

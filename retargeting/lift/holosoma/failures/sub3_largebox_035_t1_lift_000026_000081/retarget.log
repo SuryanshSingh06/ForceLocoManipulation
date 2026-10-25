@@ -1,0 +1,1703 @@
+INFO: Task: sub3_largebox_035, Type: object_interaction, Format: smplh
+INFO: Data path: /home/rudra/holosoma/t2/holosoma_lift_all04/lift/sub3_largebox_035_t1_lift_000026_000081/input, Save dir: /home/rudra/holosoma/t2/holosoma_lift_all04/lift/sub3_largebox_035_t1_lift_000026_000081/retargeted
+INFO: Loading motion data for task: sub3_largebox_035, format: smplh
+INFO: Setting up object data for task: object_interaction
+INFO: Retargeter created
+INFO: Initializing robot pose
+INFO: Starting retargeting...
+Loading and sampling object mesh...
+Loading robot model from:  models/g1/g1_29dof_w_largebox.xml
+
+Starting motion retargeting for 55 frames...
+  0%|          | 0/55 [00:00<?, ?it/s]  0%|          | 0/55 [00:00<?, ?it/s, cost=16.2]  2%|▏         | 1/55 [00:00<00:25,  2.15it/s, cost=16.2][RECOVERY] frame=1 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=1 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=1 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 1, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=1 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=1 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=1 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 1, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=1 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=1 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=1 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 1, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+  2%|▏         | 1/55 [00:01<00:25,  2.15it/s, cost=16.3]  4%|▎         | 2/55 [00:01<00:29,  1.77it/s, cost=16.3][RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.003: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.005, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[CONTINUATION] frame=2 steps=4: Nonlinear endpoint constraint check failed.
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[CONTINUATION] frame=2 steps=8: Nonlinear endpoint constraint check failed.
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[CONTINUATION] frame=2 steps=16: Nonlinear endpoint constraint check failed.
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=2 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=2 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 2, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[CONTINUATION] frame=2 steps=32: Nonlinear endpoint constraint check failed.
+  4%|▎         | 2/55 [01:24<37:19, 42.26s/it, cost=16.3]
+Traceback (most recent call last):
+  File "/home/rudra/holosoma/t2/holosoma_lift_recovery/t2_recover_holosoma_lifts.py", line 52, in checked_iterate
+    raise RuntimeError('Nonlinear endpoint constraint check failed.')
+RuntimeError: Nonlinear endpoint constraint check failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/rudra/holosoma/t2/holosoma_lift_recovery/t2_recover_holosoma_lifts.py", line 391, in <module>
+    main()
+  File "/home/rudra/holosoma/t2/holosoma_lift_recovery/t2_recover_holosoma_lifts.py", line 219, in main
+    worker(args.entry, args.events, args.command[1:] if args.command[:1]==['--'] else args.command)
+  File "/home/rudra/holosoma/t2/holosoma_lift_recovery/t2_recover_holosoma_lifts.py", line 160, in worker
+    runpy.run_path(str(entry), run_name='__main__')
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/examples/robot_retarget.py", line 727, in <module>
+    main(cfg)
+  File "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/examples/robot_retarget.py", line 707, in main
+    retargeter.retarget_motion(
+  File "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/src/interaction_mesh_retargeter.py", line 486, in retarget_motion
+    q, cost = self.iterate(
+              ^^^^^^^^^^^^^
+  File "/home/rudra/holosoma/t2/holosoma_lift_recovery/t2_recover_holosoma_lifts.py", line 154, in iterate_wrapped
+    return checked_iterate(original_iterate,self,args,kwargs,events)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rudra/holosoma/t2/holosoma_lift_recovery/t2_recover_holosoma_lifts.py", line 100, in checked_iterate
+    raise RuntimeError(f'Object-path continuation exhausted at frame {args["frame_idx"]}; '
+RuntimeError: Object-path continuation exhausted at frame 2; object trajectory endpoints, collision and joint limits retained.

@@ -1,0 +1,211 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 1,
+      "collision_excess_m": 5.025870854907799e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 2,
+      "collision_excess_m": 6.504532792115172e-08,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 3,
+      "collision_excess_m": 1.2302553505007946e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 4,
+      "collision_excess_m": 9.523545493883567e-11,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 5,
+      "collision_excess_m": 1.636587497466646e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 6,
+      "collision_excess_m": 6.35612477581371e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 7,
+      "collision_excess_m": 9.963602382381809e-11,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 8,
+      "collision_excess_m": 2.8997718636014636e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 9,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 10,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 11,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 12,
+      "collision_excess_m": 4.2857311211182136e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 13,
+      "collision_excess_m": 1.0544398449004178e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 14,
+      "collision_excess_m": 1.4850248634956653e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 15,
+      "collision_excess_m": 1.0993383236504103e-08,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 16,
+      "collision_excess_m": 1.3143941447399388e-11,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 17,
+      "collision_excess_m": 8.723927136244924e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 18,
+      "collision_excess_m": 5.980771691695835e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 19,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 20,
+      "collision_excess_m": 5.643650635798331e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 21,
+      "collision_excess_m": 7.681613436267762e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 22,
+      "collision_excess_m": 3.867023888604049e-12,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 23,
+      "collision_excess_m": 4.3486346381488294e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 24,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 25,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 26,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 27,
+      "collision_excess_m": 3.922111940779516e-11,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 28,
+      "collision_excess_m": 1.2071697988013524e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 29,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 30,
+      "collision_excess_m": 3.724053366030433e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 31,
+      "collision_excess_m": 2.5756056397895077e-09,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 32,
+      "collision_excess_m": 1.8015415331404383e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 33,
+      "collision_excess_m": 2.475495082358836e-10,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 34,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 35,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 36,
+      "collision_excess_m": 9.437338063800205e-13,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 37,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 38,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 39,
+      "collision_excess_m": 3.8978629351982264e-13,
+      "joint_limit_excess": 0.0
+    },
+    {
+      "frame": 40,
+      "collision_excess_m": 0.0,
+      "joint_limit_excess": 0.0
+    }
+  ],
+  "failed_frames": 0,
+  "note": "Collision mask/pairs are those used by this retargeter. No grasp-force certification."
+}

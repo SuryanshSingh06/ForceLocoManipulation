@@ -1,0 +1,8 @@
+{
+  "id": "sub8_largebox_023_t1_lift_000091_000129",
+  "task": "lift",
+  "source": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub8_largebox_023.pt",
+  "object": "largebox",
+  "start": 91,
+  "end": 129
+}

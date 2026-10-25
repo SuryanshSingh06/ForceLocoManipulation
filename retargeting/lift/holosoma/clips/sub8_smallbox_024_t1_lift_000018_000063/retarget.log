@@ -1,0 +1,63 @@
+INFO: Task: sub8_smallbox_024, Type: object_interaction, Format: smplh
+INFO: Data path: /home/rudra/holosoma/t2/holosoma_lift_all03/lift/sub8_smallbox_024_t1_lift_000018_000063/input, Save dir: /home/rudra/holosoma/t2/holosoma_lift_all03/lift/sub8_smallbox_024_t1_lift_000018_000063/retargeted
+INFO: Loading motion data for task: sub8_smallbox_024, format: smplh
+INFO: Setting up object data for task: object_interaction
+INFO: Retargeter created
+INFO: Initializing robot pose
+INFO: Starting retargeting...
+Loading and sampling object mesh...
+Loading robot model from:  models/g1/g1_29dof_w_smallbox.xml
+
+Starting motion retargeting for 45 frames...
+  0%|          | 0/45 [00:00<?, ?it/s]  0%|          | 0/45 [00:00<?, ?it/s, cost=15.4]  2%|▏         | 1/45 [00:00<00:15,  2.77it/s, cost=15.4]  2%|▏         | 1/45 [00:00<00:15,  2.77it/s, cost=15.7]  2%|▏         | 1/45 [00:00<00:15,  2.77it/s, cost=15.8]  7%|▋         | 3/45 [00:00<00:07,  5.86it/s, cost=15.8]  7%|▋         | 3/45 [00:00<00:07,  5.86it/s, cost=15.7]  9%|▉         | 4/45 [00:00<00:07,  5.27it/s, cost=15.7]  9%|▉         | 4/45 [00:00<00:07,  5.27it/s, cost=15.2] 11%|█         | 5/45 [00:00<00:07,  5.58it/s, cost=15.2] 11%|█         | 5/45 [00:01<00:07,  5.58it/s, cost=14.4] 13%|█▎        | 6/45 [00:01<00:06,  6.19it/s, cost=14.4] 13%|█▎        | 6/45 [00:01<00:06,  6.19it/s, cost=14]   16%|█▌        | 7/45 [00:01<00:05,  6.76it/s, cost=14] 16%|█▌        | 7/45 [00:01<00:05,  6.76it/s, cost=13.5] 18%|█▊        | 8/45 [00:01<00:05,  7.23it/s, cost=13.5] 18%|█▊        | 8/45 [00:01<00:05,  7.23it/s, cost=12.9] 20%|██        | 9/45 [00:01<00:04,  7.57it/s, cost=12.9] 20%|██        | 9/45 [00:01<00:04,  7.57it/s, cost=12.1] 22%|██▏       | 10/45 [00:01<00:04,  7.76it/s, cost=12.1] 22%|██▏       | 10/45 [00:01<00:04,  7.76it/s, cost=11.5] 24%|██▍       | 11/45 [00:01<00:04,  7.71it/s, cost=11.5] 24%|██▍       | 11/45 [00:01<00:04,  7.71it/s, cost=11]   27%|██▋       | 12/45 [00:01<00:04,  7.76it/s, cost=11] 27%|██▋       | 12/45 [00:01<00:04,  7.76it/s, cost=10.5] 29%|██▉       | 13/45 [00:01<00:04,  7.04it/s, cost=10.5] 29%|██▉       | 13/45 [00:02<00:04,  7.04it/s, cost=10.1] 31%|███       | 14/45 [00:02<00:04,  6.59it/s, cost=10.1] 31%|███       | 14/45 [00:02<00:04,  6.59it/s, cost=11.3] 33%|███▎      | 15/45 [00:02<00:04,  6.58it/s, cost=11.3][RECOVERY] frame=15 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=15 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=15 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 15, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+ 33%|███▎      | 15/45 [00:02<00:04,  6.58it/s, cost=11.8] 36%|███▌      | 16/45 [00:02<00:06,  4.43it/s, cost=11.8][RECOVERY] frame=16 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=16 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=16 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=16 step=0.8 foot=0.003: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 16, "step_size": 0.8, "foot_sticking_tolerance_m": 0.005, "collision_constraints": true, "joint_limits": true}
+ 36%|███▌      | 16/45 [00:03<00:06,  4.43it/s, cost=12.2] 38%|███▊      | 17/45 [00:03<00:07,  3.86it/s, cost=12.2] 38%|███▊      | 17/45 [00:03<00:07,  3.86it/s, cost=13]   40%|████      | 18/45 [00:03<00:05,  4.52it/s, cost=13][RECOVERY] frame=18 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=18 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=18 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 18, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+ 40%|████      | 18/45 [00:03<00:05,  4.52it/s, cost=13.8] 42%|████▏     | 19/45 [00:03<00:06,  4.33it/s, cost=13.8] 42%|████▏     | 19/45 [00:03<00:06,  4.33it/s, cost=15.2] 44%|████▍     | 20/45 [00:03<00:04,  5.04it/s, cost=15.2] 44%|████▍     | 20/45 [00:03<00:04,  5.04it/s, cost=15.9] 47%|████▋     | 21/45 [00:03<00:04,  5.35it/s, cost=15.9] 47%|████▋     | 21/45 [00:03<00:04,  5.35it/s, cost=15.7] 49%|████▉     | 22/45 [00:03<00:03,  6.19it/s, cost=15.7] 49%|████▉     | 22/45 [00:03<00:03,  6.19it/s, cost=12.3] 51%|█████     | 23/45 [00:03<00:03,  6.85it/s, cost=12.3] 51%|█████     | 23/45 [00:04<00:03,  6.85it/s, cost=12.6] 53%|█████▎    | 24/45 [00:04<00:03,  6.24it/s, cost=12.6] 53%|█████▎    | 24/45 [00:04<00:03,  6.24it/s, cost=13.7] 56%|█████▌    | 25/45 [00:04<00:03,  5.57it/s, cost=13.7] 56%|█████▌    | 25/45 [00:04<00:03,  5.57it/s, cost=14.1] 58%|█████▊    | 26/45 [00:04<00:03,  5.50it/s, cost=14.1] 58%|█████▊    | 26/45 [00:04<00:03,  5.50it/s, cost=14.5] 58%|█████▊    | 26/45 [00:04<00:03,  5.50it/s, cost=15.7] 62%|██████▏   | 28/45 [00:04<00:02,  7.06it/s, cost=15.7] 62%|██████▏   | 28/45 [00:04<00:02,  7.06it/s, cost=14.8] 64%|██████▍   | 29/45 [00:04<00:02,  7.31it/s, cost=14.8] 64%|██████▍   | 29/45 [00:04<00:02,  7.31it/s, cost=15.5] 67%|██████▋   | 30/45 [00:04<00:01,  7.54it/s, cost=15.5][RECOVERY] frame=30 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=30 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=30 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 30, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=30 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=30 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=30 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 30, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=30 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=30 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=30 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 30, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=30 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=30 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=30 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 30, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+ 67%|██████▋   | 30/45 [00:05<00:01,  7.54it/s, cost=14.7] 69%|██████▉   | 31/45 [00:05<00:03,  3.64it/s, cost=14.7] 69%|██████▉   | 31/45 [00:05<00:03,  3.64it/s, cost=14.3] 71%|███████   | 32/45 [00:05<00:03,  4.32it/s, cost=14.3] 71%|███████   | 32/45 [00:05<00:03,  4.32it/s, cost=13.9] 73%|███████▎  | 33/45 [00:05<00:02,  5.05it/s, cost=13.9] 73%|███████▎  | 33/45 [00:05<00:02,  5.05it/s, cost=13.4] 76%|███████▌  | 34/45 [00:05<00:01,  5.76it/s, cost=13.4] 76%|███████▌  | 34/45 [00:06<00:01,  5.76it/s, cost=13.2] 78%|███████▊  | 35/45 [00:06<00:01,  6.42it/s, cost=13.2] 78%|███████▊  | 35/45 [00:06<00:01,  6.42it/s, cost=12.7] 80%|████████  | 36/45 [00:06<00:01,  6.98it/s, cost=12.7] 80%|████████  | 36/45 [00:06<00:01,  6.98it/s, cost=12.2] 82%|████████▏ | 37/45 [00:06<00:01,  6.48it/s, cost=12.2] 82%|████████▏ | 37/45 [00:06<00:01,  6.48it/s, cost=11.6] 84%|████████▍ | 38/45 [00:06<00:00,  7.10it/s, cost=11.6] 84%|████████▍ | 38/45 [00:06<00:00,  7.10it/s, cost=11.2] 87%|████████▋ | 39/45 [00:06<00:00,  7.10it/s, cost=11.2] 87%|████████▋ | 39/45 [00:06<00:00,  7.10it/s, cost=10.3] 89%|████████▉ | 40/45 [00:06<00:00,  7.48it/s, cost=10.3] 89%|████████▉ | 40/45 [00:06<00:00,  7.48it/s, cost=9.97] 91%|█████████ | 41/45 [00:06<00:00,  7.10it/s, cost=9.97] 91%|█████████ | 41/45 [00:07<00:00,  7.10it/s, cost=9.06] 93%|█████████▎| 42/45 [00:07<00:00,  7.44it/s, cost=9.06][RECOVERY] frame=42 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=42 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=42 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 42, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=42 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=42 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=42 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 42, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=42 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=42 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=42 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 42, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=42 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=42 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=42 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 42, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+[RECOVERY] frame=42 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=42 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=42 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 42, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+ 93%|█████████▎| 42/45 [00:07<00:00,  7.44it/s, cost=6.68] 96%|█████████▌| 43/45 [00:07<00:00,  3.02it/s, cost=6.68] 96%|█████████▌| 43/45 [00:08<00:00,  3.02it/s, cost=5.19] 98%|█████████▊| 44/45 [00:08<00:00,  3.20it/s, cost=5.19] 98%|█████████▊| 44/45 [00:08<00:00,  3.20it/s, cost=4.79]100%|██████████| 45/45 [00:08<00:00,  3.75it/s, cost=4.79]100%|██████████| 45/45 [00:08<00:00,  5.46it/s, cost=4.79]
+INFO: Retargeting complete. Results saved to: /home/rudra/holosoma/t2/holosoma_lift_all03/lift/sub8_smallbox_024_t1_lift_000018_000063/retargeted/sub8_smallbox_024_original.npz
+Saving results to path: /home/rudra/holosoma/t2/holosoma_lift_all03/lift/sub8_smallbox_024_t1_lift_000018_000063/retargeted/sub8_smallbox_024_original.npz

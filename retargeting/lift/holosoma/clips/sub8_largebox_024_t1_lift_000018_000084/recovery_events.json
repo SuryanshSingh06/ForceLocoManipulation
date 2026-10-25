@@ -1,0 +1,65 @@
+{
+  "recovery_events": [
+    {
+      "frame": 11,
+      "method": "object_path_continuation",
+      "subdivisions": 4,
+      "endpoint_checks": {
+        "collision_excess_m": 0.0,
+        "joint_limit_excess": 0.0
+      },
+      "foot_anchor": "previous_output_frame"
+    },
+    {
+      "frame": 12,
+      "method": "object_path_continuation",
+      "subdivisions": 4,
+      "endpoint_checks": {
+        "collision_excess_m": 7.047813103521622e-10,
+        "joint_limit_excess": 0.0
+      },
+      "foot_anchor": "previous_output_frame"
+    },
+    {
+      "frame": 13,
+      "method": "object_path_continuation",
+      "subdivisions": 4,
+      "endpoint_checks": {
+        "collision_excess_m": 4.964501932377269e-10,
+        "joint_limit_excess": 0.0
+      },
+      "foot_anchor": "previous_output_frame"
+    },
+    {
+      "frame": 14,
+      "method": "object_path_continuation",
+      "subdivisions": 4,
+      "endpoint_checks": {
+        "collision_excess_m": 1.0655674628247402e-10,
+        "joint_limit_excess": 0.0
+      },
+      "foot_anchor": "previous_output_frame"
+    },
+    {
+      "frame": 15,
+      "method": "object_path_continuation",
+      "subdivisions": 4,
+      "endpoint_checks": {
+        "collision_excess_m": 5.108270983728708e-09,
+        "joint_limit_excess": 0.0
+      },
+      "foot_anchor": "previous_output_frame"
+    },
+    {
+      "frame": 16,
+      "method": "object_path_continuation",
+      "subdivisions": 4,
+      "endpoint_checks": {
+        "collision_excess_m": 3.4211266957372144e-09,
+        "joint_limit_excess": 0.0
+      },
+      "foot_anchor": "previous_output_frame"
+    }
+  ],
+  "note": "Foot tolerance is a per-frame XY bound, not total slip. Completion does not establish physical support or hand contact."
+}

@@ -1,0 +1,25 @@
+{
+  "recovery_events": [
+    {
+      "frame": 20,
+      "method": "object_path_continuation",
+      "subdivisions": 4,
+      "endpoint_checks": {
+        "collision_excess_m": 1.664707273679039e-08,
+        "joint_limit_excess": 0.0
+      },
+      "foot_anchor": "previous_output_frame"
+    },
+    {
+      "frame": 21,
+      "method": "object_path_continuation",
+      "subdivisions": 4,
+      "endpoint_checks": {
+        "collision_excess_m": 1.3104334544572493e-10,
+        "joint_limit_excess": 0.0
+      },
+      "foot_anchor": "previous_output_frame"
+    }
+  ],
+  "note": "Foot tolerance is a per-frame XY bound, not total slip. Completion does not establish physical support or hand contact."
+}

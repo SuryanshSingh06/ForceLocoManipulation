@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "previous": "/home/rudra/holosoma/t2/holosoma_lift_all03",
+  "previous_manifest_sha256": "01335d4ed433960327e2996858497022278ec116ff3b532ec5b6c0bf6cf8535a",
+  "solver_sha256": "587d7f5b2b9aeecdd74a84ae5a4d590a6f2dcc01f935b9219858549987e9adea",
+  "entry_sha256": "aa51b4d99c47f13c4cb11d6c9de9a82e57dfff02acbd3397c59957cc403a67bc",
+  "script_sha256": "91f0c9906300325e8fe0692df8668058cff04ca5a20058498b0a2910585c4af5",
+  "helper_sha256": "d6d8c8c97d65db4fcdc43e7ea92371c30aaa0d4867ec6a9352c1c02e3badbf01",
+  "selected_manifest_sha256": "c333536f9d5a2f3ede17f14cdfa35d5f728cfd30995c38842ce2ba2e4cc19d24",
+  "out": "/home/rudra/holosoma/t2/holosoma_lift_all04",
+  "selected_out": "/home/rudra/holosoma/t2/holosoma_lift_selected24_04"
+}

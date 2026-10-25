@@ -1,0 +1,5 @@
+{
+  "commit": "a5e46f3ee5ddd0a2f9e9159422e55b68a4ae4ac2",
+  "working_tree_status": " M src/holosoma/holosoma/config_values/command.py\n M src/holosoma/holosoma/config_values/experiment.py\n M src/holosoma/holosoma/config_values/scene.py\n M src/holosoma/holosoma/config_values/wbt/g1/command.py\n M src/holosoma/holosoma/config_values/wbt/g1/experiment.py\n M src/holosoma/holosoma/config_values/wbt/g1/scene.py\n M src/holosoma_retargeting/holosoma_retargeting/data_conversion/convert_data_format_mj.py\n?? src/holosoma_retargeting/holosoma_retargeting/data_conversion/convert_data_format_mj.py.bak\n?? t1/\n?? t2/\n?? t3/\n",
+  "note": "Tracked Python files are snapshotted under scripts/installed_holosoma_retargeting."
+}

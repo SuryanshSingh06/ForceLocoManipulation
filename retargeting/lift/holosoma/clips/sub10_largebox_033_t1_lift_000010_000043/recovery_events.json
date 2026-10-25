@@ -1,0 +1,145 @@
+{
+  "recovery_events": [
+    {
+      "frame": 12,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 22,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 22,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 22,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 22,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 23,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 23,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 23,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 23,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 23,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 24,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 24,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 24,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 24,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 25,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 25,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 25,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 26,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 26,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 26,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    }
+  ],
+  "note": "Foot tolerance is a per-frame XY bound, not total slip. Completion does not establish physical support or hand contact."
+}

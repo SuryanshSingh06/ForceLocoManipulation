@@ -1,0 +1,75 @@
+{
+  "recovery_events": [
+    {
+      "frame": 11,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.01,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 12,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.01,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 13,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.005,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 14,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.01,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 15,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.005,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 16,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 20,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 21,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 22,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.005,
+      "collision_constraints": true,
+      "joint_limits": true
+    },
+    {
+      "frame": 23,
+      "step_size": 0.8,
+      "foot_sticking_tolerance_m": 0.003,
+      "collision_constraints": true,
+      "joint_limits": true
+    }
+  ],
+  "note": "Foot tolerance is a per-frame XY bound, not total slip. Completion does not establish physical support or hand contact."
+}

@@ -1,0 +1,29 @@
+INFO: Task: sub1_plasticbox_036, Type: object_interaction, Format: smplh
+INFO: Data path: /home/rudra/holosoma/t2/holosoma_lift_all03/lift/sub1_plasticbox_036_t1_lift_000075_000108/input, Save dir: /home/rudra/holosoma/t2/holosoma_lift_all03/lift/sub1_plasticbox_036_t1_lift_000075_000108/retargeted
+INFO: Loading motion data for task: sub1_plasticbox_036, format: smplh
+INFO: Setting up object data for task: object_interaction
+WARNING: only got 67/100 samples!
+INFO: Retargeter created
+INFO: Initializing robot pose
+INFO: Starting retargeting...
+Loading and sampling object mesh...
+Loading robot model from:  models/g1/g1_29dof_w_plasticbox.xml
+
+Starting motion retargeting for 33 frames...
+  0%|          | 0/33 [00:00<?, ?it/s]  0%|          | 0/33 [00:00<?, ?it/s, cost=12.5]  3%|▎         | 1/33 [00:00<00:14,  2.28it/s, cost=12.5]  3%|▎         | 1/33 [00:00<00:14,  2.28it/s, cost=12.7]  3%|▎         | 1/33 [00:00<00:14,  2.28it/s, cost=12.5]  9%|▉         | 3/33 [00:00<00:05,  5.54it/s, cost=12.5]  9%|▉         | 3/33 [00:00<00:05,  5.54it/s, cost=12]   12%|█▏        | 4/33 [00:00<00:05,  5.58it/s, cost=12] 12%|█▏        | 4/33 [00:00<00:05,  5.58it/s, cost=11.8] 15%|█▌        | 5/33 [00:00<00:04,  6.42it/s, cost=11.8] 15%|█▌        | 5/33 [00:01<00:04,  6.42it/s, cost=11.5] 18%|█▊        | 6/33 [00:01<00:04,  6.61it/s, cost=11.5] 18%|█▊        | 6/33 [00:01<00:04,  6.61it/s, cost=10.9] 21%|██        | 7/33 [00:01<00:03,  6.73it/s, cost=10.9] 21%|██        | 7/33 [00:01<00:03,  6.73it/s, cost=10.6] 24%|██▍       | 8/33 [00:01<00:03,  7.36it/s, cost=10.6] 24%|██▍       | 8/33 [00:01<00:03,  7.36it/s, cost=9.78] 27%|██▋       | 9/33 [00:01<00:03,  7.82it/s, cost=9.78] 27%|██▋       | 9/33 [00:01<00:03,  7.82it/s, cost=9.01] 30%|███       | 10/33 [00:01<00:02,  8.06it/s, cost=9.01][RECOVERY] frame=10 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=10 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=10 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 10, "step_size": 0.8, "foot_sticking_tolerance_m": 0.003, "collision_constraints": true, "joint_limits": true}
+ 30%|███       | 10/33 [00:01<00:02,  8.06it/s, cost=8.58] 33%|███▎      | 11/33 [00:01<00:04,  5.42it/s, cost=8.58][RECOVERY] frame=11 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=11 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=11 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=11 step=0.8 foot=0.003: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 11, "step_size": 0.8, "foot_sticking_tolerance_m": 0.005, "collision_constraints": true, "joint_limits": true}
+ 33%|███▎      | 11/33 [00:02<00:04,  5.42it/s, cost=8.4]  36%|███▋      | 12/33 [00:02<00:05,  3.91it/s, cost=8.4][RECOVERY] frame=12 step=0.2 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=12 step=0.4 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=12 step=0.8 foot=0.001: CVXPY solve failed: infeasible
+[RECOVERY] frame=12 step=0.8 foot=0.003: CVXPY solve failed: infeasible
+[RECOVERY] {"frame": 12, "step_size": 0.8, "foot_sticking_tolerance_m": 0.005, "collision_constraints": true, "joint_limits": true}
+ 36%|███▋      | 12/33 [00:02<00:05,  3.91it/s, cost=8.26] 39%|███▉      | 13/33 [00:02<00:05,  3.54it/s, cost=8.26] 39%|███▉      | 13/33 [00:02<00:05,  3.54it/s, cost=8.06] 42%|████▏     | 14/33 [00:02<00:04,  4.30it/s, cost=8.06] 42%|████▏     | 14/33 [00:02<00:04,  4.30it/s, cost=7.7]  45%|████▌     | 15/33 [00:02<00:03,  5.12it/s, cost=7.7] 45%|████▌     | 15/33 [00:02<00:03,  5.12it/s, cost=7.58] 48%|████▊     | 16/33 [00:02<00:02,  5.95it/s, cost=7.58] 48%|████▊     | 16/33 [00:03<00:02,  5.95it/s, cost=7.7]  52%|█████▏    | 17/33 [00:03<00:02,  6.71it/s, cost=7.7] 52%|█████▏    | 17/33 [00:03<00:02,  6.71it/s, cost=7.6] 55%|█████▍    | 18/33 [00:03<00:02,  7.36it/s, cost=7.6] 55%|█████▍    | 18/33 [00:03<00:02,  7.36it/s, cost=7.67] 58%|█████▊    | 19/33 [00:03<00:01,  7.91it/s, cost=7.67] 58%|█████▊    | 19/33 [00:03<00:01,  7.91it/s, cost=7.72] 61%|██████    | 20/33 [00:03<00:01,  8.40it/s, cost=7.72] 61%|██████    | 20/33 [00:03<00:01,  8.40it/s, cost=7.66] 64%|██████▎   | 21/33 [00:03<00:01,  8.81it/s, cost=7.66] 64%|██████▎   | 21/33 [00:03<00:01,  8.81it/s, cost=7.82] 64%|██████▎   | 21/33 [00:03<00:01,  8.81it/s, cost=8.32] 70%|██████▉   | 23/33 [00:03<00:01,  9.47it/s, cost=8.32] 70%|██████▉   | 23/33 [00:03<00:01,  9.47it/s, cost=9.64] 70%|██████▉   | 23/33 [00:03<00:01,  9.47it/s, cost=11]   76%|███████▌  | 25/33 [00:03<00:00,  8.64it/s, cost=11] 76%|███████▌  | 25/33 [00:03<00:00,  8.64it/s, cost=12.5] 76%|███████▌  | 25/33 [00:04<00:00,  8.64it/s, cost=13.7] 82%|████████▏ | 27/33 [00:04<00:00,  9.72it/s, cost=13.7] 82%|████████▏ | 27/33 [00:04<00:00,  9.72it/s, cost=15.1] 82%|████████▏ | 27/33 [00:04<00:00,  9.72it/s, cost=16.3] 88%|████████▊ | 29/33 [00:04<00:00, 10.28it/s, cost=16.3] 88%|████████▊ | 29/33 [00:04<00:00, 10.28it/s, cost=17.4] 88%|████████▊ | 29/33 [00:04<00:00, 10.28it/s, cost=18.9] 94%|█████████▍| 31/33 [00:04<00:00, 10.75it/s, cost=18.9] 94%|█████████▍| 31/33 [00:04<00:00, 10.75it/s, cost=19.6] 94%|█████████▍| 31/33 [00:04<00:00, 10.75it/s, cost=20.2]100%|██████████| 33/33 [00:04<00:00, 11.11it/s, cost=20.2]100%|██████████| 33/33 [00:04<00:00,  7.20it/s, cost=20.2]
+INFO: Retargeting complete. Results saved to: /home/rudra/holosoma/t2/holosoma_lift_all03/lift/sub1_plasticbox_036_t1_lift_000075_000108/retargeted/sub1_plasticbox_036_original.npz
+Saving results to path: /home/rudra/holosoma/t2/holosoma_lift_all03/lift/sub1_plasticbox_036_t1_lift_000075_000108/retargeted/sub1_plasticbox_036_original.npz

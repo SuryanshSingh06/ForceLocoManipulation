@@ -1,0 +1,8 @@
+{
+  "id": "sub8_smallbox_024_t1_lift_000018_000063",
+  "task": "lift",
+  "source": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub8_smallbox_024.pt",
+  "object": "smallbox",
+  "start": 18,
+  "end": 63
+}

@@ -1,0 +1,846 @@
+{
+  "expected": 24,
+  "completed": 24,
+  "clips": [
+    {
+      "id": "sub10_largebox_033_t1_lift_000010_000043",
+      "task": "lift",
+      "object": "largebox",
+      "source_id": "sub10_largebox_033",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub10_largebox_033.pt",
+      "start": 10,
+      "end": 43,
+      "source_sha256": "2f88a87efe7d5d12493c15399328a5b3e6044362f670743e7b5b0d6bbb30a9b4",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub10_largebox_033_t1_lift_000010_000043/motion_original.npz",
+        "sha256": "94d827451f7bd92be8c532054beecae069f91e17958f2cfb42eaee56fc0466e3",
+        "frames": 33,
+        "fps": 30.0,
+        "qpos_shape": [
+          33,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub10_largebox_033_t1_lift_000010_000043/motion_fps50.npz",
+        "sha256": "04376725cefcf10465c64d6b75aa410db6b7ccc2f6076fb4f7e8897c42e3d387",
+        "frames": 54,
+        "fps": 50.0,
+        "qpos_shape": [
+          54,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub10_smallbox_050_t1_lift_000083_000129",
+      "task": "lift",
+      "object": "smallbox",
+      "source_id": "sub10_smallbox_050",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub10_smallbox_050.pt",
+      "start": 83,
+      "end": 129,
+      "source_sha256": "f3bca51ac399bca39999e67914b4851aca17a57b0fd1f484da86a6a5fd4b20a0",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub10_smallbox_050_t1_lift_000083_000129/motion_original.npz",
+        "sha256": "2c468726a887c8ee6c9a4c2867caf6d11f61b6a16eb4b95c2a4421e75740fa27",
+        "frames": 46,
+        "fps": 30.0,
+        "qpos_shape": [
+          46,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub10_smallbox_050_t1_lift_000083_000129/motion_fps50.npz",
+        "sha256": "eb23d6498d02ed75541eb8ee82c08b1cab01c3d2869a0760d01e9f1f3768408b",
+        "frames": 76,
+        "fps": 50.0,
+        "qpos_shape": [
+          76,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub12_plasticbox_023_t1_lift_000110_000153",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub12_plasticbox_023",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub12_plasticbox_023.pt",
+      "start": 110,
+      "end": 153,
+      "source_sha256": "48d72007a1a2f290092932f9fb0d5964becf4e2dee688ac451d4ab14e9f68634",
+      "t1_review": "accepted",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub12_plasticbox_023_t1_lift_000110_000153/motion_original.npz",
+        "sha256": "9bd183016f204654a1f76f6c5e7e5b150b316ec4cd775d283ea21257185374de",
+        "frames": 43,
+        "fps": 30.0,
+        "qpos_shape": [
+          43,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub12_plasticbox_023_t1_lift_000110_000153/motion_fps50.npz",
+        "sha256": "77cd4068c1d9a208f39b9c36bbb9dd681e7cc6616af9bfb6d38b5cc620db46f9",
+        "frames": 71,
+        "fps": 50.0,
+        "qpos_shape": [
+          71,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub12_plasticbox_036_t1_lift_000242_000280",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub12_plasticbox_036",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub12_plasticbox_036.pt",
+      "start": 242,
+      "end": 280,
+      "source_sha256": "aa6e042765b9a6ef0f99fffb4db3d2b556659a411f342ead61f8730115a5c654",
+      "t1_review": "accepted",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub12_plasticbox_036_t1_lift_000242_000280/motion_original.npz",
+        "sha256": "2b29fe8af3cad7a4c35926784f70ccec2f2fa878489cda41cd8b8b97744565b4",
+        "frames": 38,
+        "fps": 30.0,
+        "qpos_shape": [
+          38,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub12_plasticbox_036_t1_lift_000242_000280/motion_fps50.npz",
+        "sha256": "d3ead1ff085359d3fb0094289b891b50ac0f1485041fe64126c274467216c973",
+        "frames": 62,
+        "fps": 50.0,
+        "qpos_shape": [
+          62,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub14_smallbox_027_t1_lift_000013_000056",
+      "task": "lift",
+      "object": "smallbox",
+      "source_id": "sub14_smallbox_027",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub14_smallbox_027.pt",
+      "start": 13,
+      "end": 56,
+      "source_sha256": "f26e2991c97bb9907b240245ccfc8769fcde57eb4f33ed1317b74b313b569ea8",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub14_smallbox_027_t1_lift_000013_000056/motion_original.npz",
+        "sha256": "b75e4e457971c959b07c3e30f9ba46997b190ecef3d2104297f2ed397fa27e86",
+        "frames": 43,
+        "fps": 30.0,
+        "qpos_shape": [
+          43,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub14_smallbox_027_t1_lift_000013_000056/motion_fps50.npz",
+        "sha256": "4ec8d2e4b008043cd0b684e15ad6fa182f6f65511a4ee4b113303688e94adb13",
+        "frames": 71,
+        "fps": 50.0,
+        "qpos_shape": [
+          71,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub14_smallbox_029_t1_lift_000090_000132",
+      "task": "lift",
+      "object": "smallbox",
+      "source_id": "sub14_smallbox_029",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub14_smallbox_029.pt",
+      "start": 90,
+      "end": 132,
+      "source_sha256": "76ec9ddc69e60122024cccd05c3d85c53e0cd6ee91ce3d440fa22ea44e88b067",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub14_smallbox_029_t1_lift_000090_000132/motion_original.npz",
+        "sha256": "ed7495b73c495c658a6fecde6e2d340df173a4ba10f24db273a317c6030e93d2",
+        "frames": 42,
+        "fps": 30.0,
+        "qpos_shape": [
+          42,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub14_smallbox_029_t1_lift_000090_000132/motion_fps50.npz",
+        "sha256": "ad34ac239b99159cde2fa0ed95da16a1510bda3ff57b2d7355517e669331c36e",
+        "frames": 69,
+        "fps": 50.0,
+        "qpos_shape": [
+          69,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub15_plasticbox_023_t1_lift_000046_000106",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub15_plasticbox_023",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub15_plasticbox_023.pt",
+      "start": 46,
+      "end": 106,
+      "source_sha256": "b208d9e3a1decae4504181b4d918211cf45dd4840f72c9585e1d4e12764f7ce5",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub15_plasticbox_023_t1_lift_000046_000106/motion_original.npz",
+        "sha256": "72a5665bfecb25f29eed5e89d536c1a59cdb1fa25e9ce17f8b7dc4bb578c3677",
+        "frames": 60,
+        "fps": 30.0,
+        "qpos_shape": [
+          60,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub15_plasticbox_023_t1_lift_000046_000106/motion_fps50.npz",
+        "sha256": "0e2f8fe964ff7f50a75e4c43871900c02e57630baa90f4e597983526cd598ee9",
+        "frames": 99,
+        "fps": 50.0,
+        "qpos_shape": [
+          99,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub15_plasticbox_024_t1_lift_000049_000115",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub15_plasticbox_024",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub15_plasticbox_024.pt",
+      "start": 49,
+      "end": 115,
+      "source_sha256": "e3bd73e400cda17be4208fa76b74fb09893256f2f87c86028011eb5548da687f",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub15_plasticbox_024_t1_lift_000049_000115/motion_original.npz",
+        "sha256": "9565f6db6f6170389daae6898908c39ccfdc93ff6acbad60cbd83db62406b68d",
+        "frames": 66,
+        "fps": 30.0,
+        "qpos_shape": [
+          66,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub15_plasticbox_024_t1_lift_000049_000115/motion_fps50.npz",
+        "sha256": "aa4e91ef57ed4168012d1575187d77b499a5761c6b0b71f1119e618a18fbbee0",
+        "frames": 109,
+        "fps": 50.0,
+        "qpos_shape": [
+          109,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub15_plasticbox_025_t1_lift_000054_000106",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub15_plasticbox_025",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub15_plasticbox_025.pt",
+      "start": 54,
+      "end": 106,
+      "source_sha256": "b46a32484dfc7aca669c4ae8c16ea5850278014296e4198f2799067ae33e003a",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub15_plasticbox_025_t1_lift_000054_000106/motion_original.npz",
+        "sha256": "fc90898bf556f33c19828f9e99e3b0040d8416618f8a40098005102ae98d22ea",
+        "frames": 52,
+        "fps": 30.0,
+        "qpos_shape": [
+          52,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub15_plasticbox_025_t1_lift_000054_000106/motion_fps50.npz",
+        "sha256": "6a19ac4e3075793ced37bcc1ff5437d2adfb8e7f2fcdd6cfd14a2e9162420ac3",
+        "frames": 86,
+        "fps": 50.0,
+        "qpos_shape": [
+          86,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub15_plasticbox_026_t1_lift_000045_000101",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub15_plasticbox_026",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub15_plasticbox_026.pt",
+      "start": 45,
+      "end": 101,
+      "source_sha256": "cca42b18203551dea8f38ab91a3a0c2325740ff47ee0bb20959ea9fab360797e",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub15_plasticbox_026_t1_lift_000045_000101/motion_original.npz",
+        "sha256": "11132a5e0be90c006d561af88cb76bc77b6db86fdc39337e7e428b1596e22495",
+        "frames": 56,
+        "fps": 30.0,
+        "qpos_shape": [
+          56,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub15_plasticbox_026_t1_lift_000045_000101/motion_fps50.npz",
+        "sha256": "ea0345a904fe2c4a6a4f3ad181735f7d79948a3393e0d19c819cedd1238efd8c",
+        "frames": 92,
+        "fps": 50.0,
+        "qpos_shape": [
+          92,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub16_largebox_022_t1_lift_000089_000147",
+      "task": "lift",
+      "object": "largebox",
+      "source_id": "sub16_largebox_022",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub16_largebox_022.pt",
+      "start": 89,
+      "end": 147,
+      "source_sha256": "e3f467dbad4fdad5b6d25995f4d1b9c98078273f6a1b7708976abf5d4057a288",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub16_largebox_022_t1_lift_000089_000147/motion_original.npz",
+        "sha256": "1711775820c56eab970d8edf1f847a11998b173e5dda51585a7bc9ff360ccce9",
+        "frames": 58,
+        "fps": 30.0,
+        "qpos_shape": [
+          58,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub16_largebox_022_t1_lift_000089_000147/motion_fps50.npz",
+        "sha256": "f5b10a51ee84a8a6eaff846e760982fa888e8bac845cf504c7af3ec3986e0853",
+        "frames": 96,
+        "fps": 50.0,
+        "qpos_shape": [
+          96,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub1_plasticbox_020_t1_lift_000020_000092",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub1_plasticbox_020",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub1_plasticbox_020.pt",
+      "start": 20,
+      "end": 92,
+      "source_sha256": "94b6a7e4d0a580e0856d55ba11ae6063a47c4392217fb3530ca37aebcfca82f8",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub1_plasticbox_020_t1_lift_000020_000092/motion_original.npz",
+        "sha256": "256675a98c7c8be6ace2878ae2b7c56f4ba6afd4f88303ec67a0ad85557eace7",
+        "frames": 72,
+        "fps": 30.0,
+        "qpos_shape": [
+          72,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub1_plasticbox_020_t1_lift_000020_000092/motion_fps50.npz",
+        "sha256": "e06a5dee312bde72f1abc07c7c42d580ed94142f3365191cd3e0ad68947b0c22",
+        "frames": 119,
+        "fps": 50.0,
+        "qpos_shape": [
+          119,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub1_plasticbox_044_t1_lift_000019_000067",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub1_plasticbox_044",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub1_plasticbox_044.pt",
+      "start": 19,
+      "end": 67,
+      "source_sha256": "0e1557d6954c58015177abe77f8d834625ddfd2232b15901d00729ace4e5e7a4",
+      "t1_review": "accepted",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub1_plasticbox_044_t1_lift_000019_000067/motion_original.npz",
+        "sha256": "dc68d2ecbedce6725af8364e8ed48a4bafc61989d93db2df68990a67296a6d19",
+        "frames": 48,
+        "fps": 30.0,
+        "qpos_shape": [
+          48,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub1_plasticbox_044_t1_lift_000019_000067/motion_fps50.npz",
+        "sha256": "72d42b22596b9277810fe723588c90ef82f9af423a8225123b93f00d50e46ccb",
+        "frames": 79,
+        "fps": 50.0,
+        "qpos_shape": [
+          79,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub1_plasticbox_045_t1_lift_000022_000075",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub1_plasticbox_045",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub1_plasticbox_045.pt",
+      "start": 22,
+      "end": 75,
+      "source_sha256": "69f25beb36556d805ee105ecd8023a978a03dcf0e5f12c77bb0b639bafc318ff",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub1_plasticbox_045_t1_lift_000022_000075/motion_original.npz",
+        "sha256": "41b93638a49d053bfedb8baace9c9c830053888952feb4df66d82f9195538c56",
+        "frames": 53,
+        "fps": 30.0,
+        "qpos_shape": [
+          53,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub1_plasticbox_045_t1_lift_000022_000075/motion_fps50.npz",
+        "sha256": "c2b856831edd57e180a1864eaef8d55c540393733721287dd2a6e1f5d1841abf",
+        "frames": 87,
+        "fps": 50.0,
+        "qpos_shape": [
+          87,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub1_plasticbox_048_t1_lift_000027_000077",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub1_plasticbox_048",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub1_plasticbox_048.pt",
+      "start": 27,
+      "end": 77,
+      "source_sha256": "9051497ec0f01efd973e6e65a1215a84e435d99bedadc99222c98a099ff75b97",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub1_plasticbox_048_t1_lift_000027_000077/motion_original.npz",
+        "sha256": "52c393c7f35a6a302c430460dba047ffd9b11f3256c37d9ce03c931f0ab7d552",
+        "frames": 50,
+        "fps": 30.0,
+        "qpos_shape": [
+          50,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub1_plasticbox_048_t1_lift_000027_000077/motion_fps50.npz",
+        "sha256": "fb3901d5351d0a70a8c324e258d752efa0f81ef27bce125b6d9f76ada8224281",
+        "frames": 82,
+        "fps": 50.0,
+        "qpos_shape": [
+          82,
+          43
+        ]
+      },
+      "constraint_audit": "../clips/sub1_plasticbox_048_t1_lift_000027_000077/constraint_audit.json"
+    },
+    {
+      "id": "sub1_plasticbox_049_t1_lift_000029_000077",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub1_plasticbox_049",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub1_plasticbox_049.pt",
+      "start": 29,
+      "end": 77,
+      "source_sha256": "b6e3bd289deee079832eead267c79ecf06eed388b2945e9a905f443c38a033c0",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub1_plasticbox_049_t1_lift_000029_000077/motion_original.npz",
+        "sha256": "80f994213089d51697e57cb9a475f5f32e4ae0a4ce04e5a557df41863fc953fb",
+        "frames": 48,
+        "fps": 30.0,
+        "qpos_shape": [
+          48,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub1_plasticbox_049_t1_lift_000029_000077/motion_fps50.npz",
+        "sha256": "8f2542760feeefb32e53fdffaafa1705b89fa96b84cdb1cc3675cd7082b7155c",
+        "frames": 79,
+        "fps": 50.0,
+        "qpos_shape": [
+          79,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub1_plasticbox_075_t1_lift_000021_000057",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub1_plasticbox_075",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub1_plasticbox_075.pt",
+      "start": 21,
+      "end": 57,
+      "source_sha256": "daac31bc7ee9355fdac8dd0babfedb070fde9f365da47a0de64e69566dbbee90",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub1_plasticbox_075_t1_lift_000021_000057/motion_original.npz",
+        "sha256": "0489c6d3d7192385d040af0be3c642fe8b6e3a8ccd09b8286d353fccfdf76735",
+        "frames": 36,
+        "fps": 30.0,
+        "qpos_shape": [
+          36,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub1_plasticbox_075_t1_lift_000021_000057/motion_fps50.npz",
+        "sha256": "0225dabca0da7c61a2a405dda994c360bfb7a5181141539d3487d7e36c9f2ded",
+        "frames": 59,
+        "fps": 50.0,
+        "qpos_shape": [
+          59,
+          43
+        ]
+      },
+      "constraint_audit": "../clips/sub1_plasticbox_075_t1_lift_000021_000057/constraint_audit.json"
+    },
+    {
+      "id": "sub5_plasticbox_026_t1_lift_000039_000091",
+      "task": "lift",
+      "object": "plasticbox",
+      "source_id": "sub5_plasticbox_026",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub5_plasticbox_026.pt",
+      "start": 39,
+      "end": 91,
+      "source_sha256": "3c95177a9f6d2b99fb55e0594f855d4f50c8423c7828cecd7b860e0d17db24c8",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub5_plasticbox_026_t1_lift_000039_000091/motion_original.npz",
+        "sha256": "a91e3d386e1f85ea1610c0bdab6895a8974bce84dce2ba9f601237fa8ed0b614",
+        "frames": 52,
+        "fps": 30.0,
+        "qpos_shape": [
+          52,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub5_plasticbox_026_t1_lift_000039_000091/motion_fps50.npz",
+        "sha256": "f6f166061746407ec43c5d09b0efdf8b151709b59eb8df1441b2256184431d6a",
+        "frames": 86,
+        "fps": 50.0,
+        "qpos_shape": [
+          86,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub7_largebox_024_t1_lift_000009_000066",
+      "task": "lift",
+      "object": "largebox",
+      "source_id": "sub7_largebox_024",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub7_largebox_024.pt",
+      "start": 9,
+      "end": 66,
+      "source_sha256": "40818f64d36be89693dd1c71ed7960e782a96ac824a6a47e53dce698c52ad273",
+      "t1_review": "accepted",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub7_largebox_024_t1_lift_000009_000066/motion_original.npz",
+        "sha256": "ddafb9807757d98af0c4e694c6077c24bea99fd7a6faad891483bb80b7bf1346",
+        "frames": 57,
+        "fps": 30.0,
+        "qpos_shape": [
+          57,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub7_largebox_024_t1_lift_000009_000066/motion_fps50.npz",
+        "sha256": "9dbca132ddbd9dad93db7280250e6b885f98adb7eb06144a5b7f57934af94c89",
+        "frames": 94,
+        "fps": 50.0,
+        "qpos_shape": [
+          94,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub7_largebox_026_t1_lift_000010_000059",
+      "task": "lift",
+      "object": "largebox",
+      "source_id": "sub7_largebox_026",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub7_largebox_026.pt",
+      "start": 10,
+      "end": 59,
+      "source_sha256": "af105ee8b1f79bc26ac21bcc5ee26b9081d448e634a223a0db6be33ab5f70165",
+      "t1_review": "accepted",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub7_largebox_026_t1_lift_000010_000059/motion_original.npz",
+        "sha256": "76451d35330e7dee99916e66e1f050b14858abbff8b5166e6ff13b9fe6f31f25",
+        "frames": 49,
+        "fps": 30.0,
+        "qpos_shape": [
+          49,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub7_largebox_026_t1_lift_000010_000059/motion_fps50.npz",
+        "sha256": "69936f2f19603d54c30620ef25669428fbfaf3e749552a98cd6ac5ece3300385",
+        "frames": 81,
+        "fps": 50.0,
+        "qpos_shape": [
+          81,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub7_largebox_029_t1_lift_000010_000090",
+      "task": "lift",
+      "object": "largebox",
+      "source_id": "sub7_largebox_029",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub7_largebox_029.pt",
+      "start": 10,
+      "end": 90,
+      "source_sha256": "dec1d594ce9f120d3201df64528366cab58b0af36a31742dc74aa4cc80b12874",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub7_largebox_029_t1_lift_000010_000090/motion_original.npz",
+        "sha256": "e908255a969350c0b0be5ec8181b3d2b23318734ac72daad395c63550eeb3033",
+        "frames": 80,
+        "fps": 30.0,
+        "qpos_shape": [
+          80,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub7_largebox_029_t1_lift_000010_000090/motion_fps50.npz",
+        "sha256": "938ff2ef3c22e8230576d10d88cff218c0ef27fdb2b7a395bdb0c65e77f62aab",
+        "frames": 132,
+        "fps": 50.0,
+        "qpos_shape": [
+          132,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub7_smallbox_012_t1_lift_000039_000084",
+      "task": "lift",
+      "object": "smallbox",
+      "source_id": "sub7_smallbox_012",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub7_smallbox_012.pt",
+      "start": 39,
+      "end": 84,
+      "source_sha256": "7950d289804311b4af12a343632439f78547d6e1886c5dafd3000411291d4b98",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub7_smallbox_012_t1_lift_000039_000084/motion_original.npz",
+        "sha256": "37d33cfefa837138c6910bca16de3c6fda6a6cc427448a3b97d1ad5e1df76a07",
+        "frames": 45,
+        "fps": 30.0,
+        "qpos_shape": [
+          45,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub7_smallbox_012_t1_lift_000039_000084/motion_fps50.npz",
+        "sha256": "63af71838931a1ea55609317979b60bcf73cca83e254dea0a2461e178d8c1e0c",
+        "frames": 74,
+        "fps": 50.0,
+        "qpos_shape": [
+          74,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub7_smallbox_016_t1_lift_000027_000094",
+      "task": "lift",
+      "object": "smallbox",
+      "source_id": "sub7_smallbox_016",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub7_smallbox_016.pt",
+      "start": 27,
+      "end": 94,
+      "source_sha256": "537b8f370a80f5aec84ea163c5a985b50c6f1f678cd959d653ea4ead960710ba",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub7_smallbox_016_t1_lift_000027_000094/motion_original.npz",
+        "sha256": "ae142812ed1c0e3735744228a730b0764f1a90b50aaa8ea521fb02201c963144",
+        "frames": 67,
+        "fps": 30.0,
+        "qpos_shape": [
+          67,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub7_smallbox_016_t1_lift_000027_000094/motion_fps50.npz",
+        "sha256": "005c0fdc393654bed35f113172003ee07ec0cf9c2e8bf4b6ba72accbdfe1a168",
+        "frames": 111,
+        "fps": 50.0,
+        "qpos_shape": [
+          111,
+          43
+        ]
+      },
+      "constraint_audit": null
+    },
+    {
+      "id": "sub7_smallbox_026_t1_lift_000022_000074",
+      "task": "lift",
+      "object": "smallbox",
+      "source_id": "sub7_smallbox_026",
+      "source_original": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub7_smallbox_026.pt",
+      "start": 22,
+      "end": 74,
+      "source_sha256": "d3a8f52bd74e8402adb5a4b7d64b651dc51f126904c60f3c1f1b9c996f96b0e8",
+      "t1_review": "pending",
+      "robot_motion_review": "pending",
+      "selected24": true,
+      "backend": "holosoma_object_interaction",
+      "original": {
+        "path": "../clips/sub7_smallbox_026_t1_lift_000022_000074/motion_original.npz",
+        "sha256": "9218f90c4cd04ade37b7b79eb87580b8e627cf5ed06f182c4e757ddd04565f81",
+        "frames": 52,
+        "fps": 30.0,
+        "qpos_shape": [
+          52,
+          43
+        ]
+      },
+      "fps50": {
+        "path": "../clips/sub7_smallbox_026_t1_lift_000022_000074/motion_fps50.npz",
+        "sha256": "74e50a855545c992e60189972c251c87e65a091fb93d160a69f62d9fc88ee155",
+        "frames": 86,
+        "fps": 50.0,
+        "qpos_shape": [
+          86,
+          43
+        ]
+      },
+      "constraint_audit": null
+    }
+  ]
+}
