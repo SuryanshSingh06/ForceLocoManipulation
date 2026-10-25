@@ -1,0 +1,34 @@
+/home/rudra/.holosoma_deps/miniconda3/envs/hoi-retarget/lib/python3.10/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+<frozen importlib._bootstrap>:241: RuntimeWarning: to-Python converter for pinocchio::python::DeprecatedBool already registered; second conversion method ignored.
+[INFO] Using object model: /home/rudra/hoi-retarget/assets/objects/smallbox.urdf
+[INFO] Window projection (mode=contact): q-only contact NLP.
+[INFO]   window=60, overlap=3, pin=3, ik_tracking_weight=1.0
+[INFO] Loaded motion source 'intermimic_omomo_gmr' from '/home/rudra/holosoma/t2/hoi_all_lift_candidates01/lift/sub14_smallbox_029_t1_lift_000090_000132/input/sub14_smallbox_029.pt'.
+[INFO] --gender auto resolved to 'neutral'.
+[INFO] Saved kinematic_window: /home/rudra/holosoma/t2/hoi_all_lift_candidates01/lift/sub14_smallbox_029_t1_lift_000090_000132/kinematic_window.pkl
+[INFO] Projector per-link contact gating (41 frames, global contact: 41):
+                        left_palm_pad:   41 active,    0 skipped
+                       right_palm_pad:   41 active,    0 skipped
+                 left_ankle_roll_link:    0 active,   41 skipped
+                right_ankle_roll_link:    0 active,   41 skipped
+[INFO] === Unified-window pass ===
+[INFO]   window=60, overlap=3, pin=3, ik_tracking=1.0
+    Window [0:41) — 41 frames
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+      solver  :   t_proc      (avg)   t_wall      (avg)    n_eval
+       nlp_f  |  70.59ms (  1.91ms)  14.57ms (393.79us)        37
+       nlp_g  |  64.13ms (  1.73ms)  12.13ms (327.71us)        37
+  nlp_grad_f  | 136.30ms (  5.05ms)  32.32ms (  1.20ms)        27
+  nlp_hess_l  |   4.59 s (183.62ms) 919.12ms ( 36.76ms)        25
+   nlp_jac_g  |  64.55ms (  2.39ms)   8.52ms (315.55us)        27
+       total  |   6.31 s (  6.31 s)   1.27 s (  1.27 s)         1
+    Window [0:41) solved in 2.34s
+[INFO] Unified-window pass complete: 1 windows, 0 failed
+[INFO] Saved contact_window: /home/rudra/holosoma/t2/hoi_all_lift_candidates01/lift/sub14_smallbox_029_t1_lift_000090_000132/contact_window.pkl

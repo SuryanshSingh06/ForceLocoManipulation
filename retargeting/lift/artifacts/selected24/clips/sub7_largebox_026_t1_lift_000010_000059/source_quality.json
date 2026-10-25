@@ -1,0 +1,29 @@
+{
+  "accepted": true,
+  "reasons": [],
+  "metrics": {
+    "travel_m": 0.09417823932384746,
+    "bottom_min_m": -0.004369206670482212,
+    "bottom_max_m": 1.2347585496314082,
+    "starts_grounded": true,
+    "stable_raised_hold": true,
+    "max_object_speed_m_s": 1.777482226455769,
+    "max_object_angular_speed_rad_s": 3.6243324830570924
+  },
+  "thresholds": {
+    "min_rise_m": 0.12,
+    "ground_tolerance_m": 0.06,
+    "hold_s": 0.4,
+    "hold_range_m": 0.05,
+    "max_travel_m": 0.35,
+    "max_penetration_m": 0.04,
+    "max_object_speed_m_s": 3.0,
+    "max_object_angular_speed_rad_s": 10.0,
+    "max_root_tilt_deg": 65.0,
+    "bad_tilt_s": 0.15,
+    "foot_ground_band_m": 0.08,
+    "max_foot_slide_m_s": 0.3,
+    "foot_slide_s": 0.2,
+    "max_joint_speed_rad_s": 20.0
+  }
+}

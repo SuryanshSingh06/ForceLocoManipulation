@@ -1,0 +1,15 @@
+{
+  "task": "lift",
+  "start": 13,
+  "end": 56,
+  "travel_m": 0.1916543457753084,
+  "bottom_min_m": 0.0013990138522340378,
+  "bottom_max_m": 0.9478886972666765,
+  "score": 10.07003418612351,
+  "id": "sub14_smallbox_027_t1_lift_000013_000056",
+  "source": "/home/rudra/holosoma/src/holosoma_retargeting/holosoma_retargeting/demo_data/OMOMO_new/sub14_smallbox_027.pt",
+  "source_id": "sub14_smallbox_027",
+  "sha256": "f26e2991c97bb9907b240245ccfc8769fcde57eb4f33ed1317b74b313b569ea8",
+  "object": "smallbox",
+  "review": "pending"
+}
